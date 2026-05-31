@@ -222,17 +222,25 @@ function setupMobileMenu() {
 }
 
 function setupScrollReveal() {
-  const els = document.querySelectorAll('[data-reveal]');
-  if (!els.length || !('IntersectionObserver' in window)) return;
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('is-visible');
-        io.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-  els.forEach(el => io.observe(el));
+  if (!('IntersectionObserver' in window)) return;
+  if (!window.__revealIo) {
+    window.__revealIo = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          window.__revealIo.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  }
+  document.querySelectorAll('[data-reveal]').forEach(el => window.__revealIo.observe(el));
+}
+/* Helper: observe newly added [data-reveal] elements inside a container */
+function observeRevealChildren(container) {
+  if (!window.__revealIo) setupScrollReveal();
+  if (window.__revealIo) {
+    container.querySelectorAll('[data-reveal]').forEach(el => window.__revealIo.observe(el));
+  }
 }
 
 /* ---- Schema.org ---- */

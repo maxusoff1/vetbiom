@@ -89,6 +89,8 @@
         <span class="kb-card-more" data-i18n-static>${tr('kb.readMore', lang)}</span>
       </a>
     `).join('');
+    // Observe new data-reveal elements so they animate on scroll
+    observeRevealChildren(grid);
   }
 
   function initPage(lang) { renderFilters(lang); renderArticles(lang); }

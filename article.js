@@ -2,7 +2,7 @@
    article.js — рендеринг статьи из markdown
    ========================================================= */
 
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   const params = new URLSearchParams(location.search);
   const slug = params.get('slug');
 
@@ -77,4 +77,4 @@
         </div>
       `;
     });
-})();
+});
