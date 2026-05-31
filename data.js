@@ -467,15 +467,17 @@ const I18N = {
 
     /* О компании */
     "about.hero.eyebrow":     "О компании",
-    "about.hero.title":       "R&D-компания в области ветеринарных синбиотиков",
-    "about.block1.title":     "Компания",
-    "about.block2.title":     "Специализация",
-    "about.block2.text":      "Мы решаем конкретную задачу: создать стабильный при комнатной температуре синбиотик для животных в форме саше 1 г. Сочетание Saccharomyces boulardii и ФОС, подтверждённое тестами на выживаемость.",
+    "about.hero.title":       "Мы создаём стабильный синбиотик, потому что верим: животные заслуживают продукт, который работает до последней крошки в саше",
+    "about.block1.title":     "История",
+    "about.block1.text":      "Всё началось с простого наблюдения: на рынке ветеринарных пробиотиков слишком часто заявленные на упаковке КОЕ не соответствуют реальной выживаемости штамма к концу срока годности. Проблема оказалась не в штаммах — они хорошие. Проблема в технологии: активность воды, совместимость компонентов, барьерные свойства упаковки. Ветеринары и владельцы животных заслуживают продукт, чьи характеристики подтверждены тестом, а не только спецификацией. Так появилась BIOMA LAB.",
+    "about.block2.title":     "Миссия",
+    "about.block2.text":      "Создать стабильный при комнатной температуре синбиотик для животных в форме саше 1 г — продукт, которому можно доверять от первой до последней дозы. Мы сочетаем Saccharomyces boulardii и ФОС в формуле, подтверждённой тестами на выживаемость. И мы публикуем результаты этих тестов открыто.",
     "about.block3.title":     "Почему мы это делаем",
-    "about.block3.text":      "На рынке ветеринарных пробиотиков мы видим разрыв между заявленными КОЕ на упаковке и реальной выживаемостью штамма к концу срока годности. Часто проблема не в штамме, а в технологии смешивания и упаковки. Мы сфокусировались на этом этапе: активность воды, барьерные свойства материалов, совместимость компонентов. Цель — продукт, чьи характеристики подтверждены тестом, а не только спецификацией.",
-    "about.block4.title":     "Руководство",
-    "about.block5.title":     "Текущий статус",
-    "about.block5.text":      "R&D и тестирование прототипов. Формирование пула поставщиков сырья и упаковочных материалов. Программа стабильности первого прототипа — в активной фазе. Плановый выход на регистрацию: 2027.",
+    "about.block3.text":      "Ветеринарные пробиотики — это не просто «полезные бактерии». Это технология. Стабильность штамма зависит от активности воды (aw), барьерных свойств упаковки, совместимости с пребиотиком. Мы сфокусировались на этапе, который чаще всего недооценивают: технология смешивания и фасовки. Наша цель — продукт, у которого КОЕ на момент окончания срока годности соответствуют заявленным на момент производства. Не на 10% меньше. Не на 30%. А в пределах погрешности измерения.",
+    "about.block4.title":     "Принципы",
+    "about.block4.text":      "<strong>Прозрачность.</strong> Мы публикуем этапы разработки, протоколы тестов и результаты — включая те, где ещё есть над чем работать.<br/><br/><strong>Данные, а не маркетинг.</strong> Каждое решение — от выбора штамма до барьерного слоя фольги — обосновано данными, ссылками и тестами.<br/><br/><strong>Честность перед партнёром.</strong> Если мы ещё не решили задачу, мы так и говорим. И показываем, что делаем для её решения.",
+    "about.block5.title":     "Статус сейчас",
+    "about.block5.text":      "Мы находимся на этапе R&D и тестирования прототипов. Сформирован пул поставщиков сырья и упаковочных материалов. Запущена 24-месячная программа стабильности первого прототипа (условия хранения: +25 °C / 60% RH, ICH Zone II). Первые контрольные точки пройдены без значимых отклонений. Плановый выход на регистрацию: 2027. Если вы ветеринар, технолог или поставщик — мы открыты к диалогу уже сейчас.",
 
     /* Разработка */
     "dev.hero.eyebrow":       "Разработка продукта",
@@ -589,15 +591,17 @@ const I18N = {
 
     /* About */
     "about.hero.eyebrow":     "About",
-    "about.hero.title":       "R&D company in veterinary synbiotics",
-    "about.block1.title":     "Company",
-    "about.block2.title":     "Specialization",
-    "about.block2.text":      "We solve a concrete problem: create a room-temperature stable synbiotic for animals in 1 g sachet format. Combination of Saccharomyces boulardii and FOS, verified by viability testing.",
-    "about.block3.title":     "Why we do this",
-    "about.block3.text":      "In the veterinary probiotics market we see a gap between CFU claims on the label and the actual strain viability at the end of shelf life. Often the issue is not the strain itself, but the mixing technology and packaging. We focused on this stage: water activity, barrier properties of materials, component compatibility. Our goal — a product whose characteristics are proven by test, not just by specification.",
-    "about.block4.title":     "Leadership",
-    "about.block5.title":     "Current status",
-    "about.block5.text":      "R&D and prototype testing. Building a pool of suppliers for raw materials and packaging. The first prototype stability programme is in active phase. Planned registration: 2027.",
+    "about.hero.title":       "We build a stable synbiotic, because we believe: pets deserve a product that works — from the first granule to the last",
+    "about.block1.title":     "Our Story",
+    "about.block1.text":      "It started with a simple observation: in the veterinary probiotics market, the CFU count on the label too often doesn't match the actual strain viability at the end of shelf life. The problem wasn't the strains — they're good. The problem is technology: water activity, component compatibility, barrier properties of packaging. Veterinarians and pet owners deserve a product whose characteristics are verified by test, not just by specification. That's how BIOMA LAB was founded.",
+    "about.block2.title":     "Mission",
+    "about.block2.text":      "Create a room-temperature stable synbiotic for animals in 1 g sachet format — a product you can trust from the first dose to the last. We combine Saccharomyces boulardii and FOS in a formulation verified by viability testing. And we publish those test results openly.",
+    "about.block3.title":     "Why We Do This",
+    "about.block3.text":      "Veterinary probiotics aren't just 'good bacteria'. They're technology. Strain stability depends on water activity (aw), packaging barrier properties, and compatibility with the prebiotic. We focused on the stage that's most often underestimated: mixing and packaging technology. Our goal is a product where CFU at end of shelf life matches the declared CFU at manufacture. Not 10% less. Not 30% less. Within measurement tolerance.",
+    "about.block4.title":     "Our Principles",
+    "about.block4.text":      "<strong>Transparency.</strong> We publish development stages, test protocols and results — including the ones where there's still work to do.<br/><br/><strong>Data over marketing.</strong> Every decision — from strain selection to foil barrier layer — is backed by data, references and tests.<br/><br/><strong>Honesty with partners.</strong> If we haven't solved a problem yet, we say so. And we show what we're doing to solve it.",
+    "about.block5.title":     "Current Status",
+    "about.block5.text":      "We are in R&D and prototype testing phase. A supplier pool for raw materials and packaging has been formed. The first prototype 24-month stability programme is underway (storage: +25°C / 60% RH, ICH Zone II). Early checkpoints passed without significant deviations. Planned registration: 2027. If you're a veterinarian, technologist or supplier — we're open to dialogue now.",
 
     /* Dev */
     "dev.hero.eyebrow":       "Product development",
@@ -711,15 +715,17 @@ const I18N = {
 
     /* About */
     "about.hero.eyebrow":     "关于公司",
-    "about.hero.title":       "兽用合生元领域的研发公司",
-    "about.block1.title":     "公司",
-    "about.block2.title":     "专业方向",
-    "about.block2.text":      "我们解决一个具体问题:打造 1 克小袋装、室温稳定的动物合生元产品。Saccharomyces boulardii 与 FOS 的组合,经活力测试验证。",
+    "about.hero.title":       "我们打造稳定的合生元,因为我们相信:宠物值得拥有从第一粒到最后一粒都有效的产品",
+    "about.block1.title":     "我们的故事",
+    "about.block1.text":      "一切始于一个简单的观察:在兽用益生菌市场上,标签上标注的 CFU 数值与保质期末的实际菌株活力往往不符。问题不在于菌株本身——菌株很好。问题在于工艺:水分活度、组分兼容性、包装的阻隔性能。兽医和宠物主人值得拥有一个经测试验证而不仅仅是规格说明的产品。这就是 BIOMA LAB 的由来。",
+    "about.block2.title":     "使命",
+    "about.block2.text":      "打造 1 克小袋装、室温稳定的动物合生元产品——一个从第一剂到最后一剂都值得信赖的产品。我们将 Saccharomyces boulardii 和 FOS 结合在经活力测试验证的配方中。并且我们公开这些测试结果。",
     "about.block3.title":     "我们为什么这样做",
-    "about.block3.text":      "在兽用益生菌市场,我们看到标签上声明的 CFU 与保质期末实际菌株活力之间存在差距。问题往往不在于菌株本身,而在于混合工艺和包装。我们专注于这一阶段:水分活度、材料的阻隔性能、组分兼容性。我们的目标是产品的特性由测试证明,而不仅仅是由规格说明。",
-    "about.block4.title":     "领导团队",
+    "about.block3.text":      "兽用益生菌不仅仅是「好细菌」。它们是技术。菌株稳定性取决于水分活度 (aw)、包装阻隔性能以及与益生元的兼容性。我们专注于最常被低估的阶段:混合和包装工艺。我们的目标是:保质期末的 CFU 与生产时的标注 CFU 一致。不是少 10%。不是少 30%。而是在测量误差范围内。",
+    "about.block4.title":     "我们的原则",
+    "about.block4.text":      "<strong>透明。</strong>我们公开发布研发阶段、测试方案和结果——包括那些仍有改进空间的部分。<br/><br/><strong>数据高于营销。</strong>每一个决定——从菌株选择到铝箔阻隔层——都有数据、参考文献和测试支持。<br/><br/><strong>对合作伙伴诚实。</strong>如果某个问题我们尚未解决,我们会直言相告。并展示我们正在如何解决它。",
     "about.block5.title":     "当前状态",
-    "about.block5.text":      "研发和原型测试。建立原料和包装供应商池。第一个原型的稳定性项目处于活跃阶段。计划注册时间:2027 年。",
+    "about.block5.text":      "我们处于研发和原型测试阶段。已建立原料和包装供应商池。首个原型 24 个月稳定性项目正在进行中(储存条件:+25°C / 60% RH,ICH 第二区)。早期检查点已通过,无重大偏差。计划注册时间:2027 年。如果您是兽医、工艺师或供应商——我们现在就对对话持开放态度。",
 
     /* Dev */
     "dev.hero.eyebrow":       "产品研发",
