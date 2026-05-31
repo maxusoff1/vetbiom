@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Партнёрам и поставщикам · VetBiom</title>
+<meta name="description" content="Открытая спецификация сырья: S. boulardii, FOS, бактериофаги. Контакты для поставщиков." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Onest:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="partners">
+
+<header class="site-header"></header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow" data-i18n="p.hero.eyebrow">For Partners & Suppliers</p>
+      <h1 class="page-title" data-i18n="p.hero.title">—</h1>
+      <p class="lead" data-i18n="p.hero.subtitle">—</p>
+    </div>
+  </section>
+
+  <!-- BLOCK 1: SUPPLIERS -->
+  <section class="section" id="suppliers" style="padding-top: 40px;">
+    <div class="container narrow">
+      <div class="partner-section">
+        <h2 data-i18n="p.suppliers.title">Для поставщиков сырья</h2>
+
+        <div class="urgent-card-light" data-reveal>
+          <div class="urgent-label" data-i18n="p.suppliers.urgent">Currently sourcing — priority</div>
+          <ul class="urgent-items-list">
+            <li data-i18n="p.suppliers.urgent1">—</li>
+            <li data-i18n="p.suppliers.urgent2">—</li>
+            <li data-i18n="p.suppliers.urgent3">—</li>
+          </ul>
+        </div>
+
+        <h3 style="font-family: var(--font-display); font-weight: 400; font-size: 22px; color: var(--forest); margin: 30px 0 12px;" data-i18n="p.suppliers.also">Также интересует</h3>
+        <ul class="also-list">
+          <li data-i18n="p.suppliers.list1">—</li>
+          <li data-i18n="p.suppliers.list2">—</li>
+          <li data-i18n="p.suppliers.list3">—</li>
+          <li data-i18n="p.suppliers.list4">—</li>
+          <li data-i18n="p.suppliers.list5" style="grid-column: span 2;">—</li>
+        </ul>
+
+        <h3 style="font-family: var(--font-display); font-weight: 400; font-size: 22px; color: var(--forest); margin: 30px 0 12px;" data-i18n="p.suppliers.reqs">Требования</h3>
+        <p data-i18n="p.suppliers.reqsText" style="color: var(--ink-2); margin: 0 0 16px;">—</p>
+        <div class="reqs-tags">
+          <span class="tag">ISO 9001</span>
+          <span class="tag">ISO 22000</span>
+          <span class="tag">HACCP</span>
+          <span class="tag">GMP</span>
+          <span class="tag">CoA per batch</span>
+        </div>
+
+        <div class="email-cta">
+          <span class="email-cta-label" data-i18n="p.suppliers.send">Send proposals to</span>
+          <a href="#" data-link="email-suppliers" data-config="email_suppliers">suppliers@vetbiom.ru</a>
+        </div>
+
+        <!-- WeChat -->
+        <div class="wechat-block">
+          <div class="qr-placeholder">
+            WeChat<br/>QR<br/>
+            <small style="font-size: 9px; opacity: 0.6;">replace<br/>with image</small>
+          </div>
+          <div>
+            <h4>WeChat</h4>
+            <p style="margin: 0; color: var(--ink-2); font-size: 14px;">Прямой контакт для китайских поставщиков · 中国供应商直接联系</p>
+            <div class="wechat-id" data-config="wechat_id">—</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BLOCK 2: VETERINARIANS -->
+      <div class="partner-section" id="vet">
+        <h2 data-i18n="p.vet.title">Для ветеринаров и технологов</h2>
+        <p class="lead" data-i18n="p.vet.text">—</p>
+        <div class="email-cta">
+          <span class="email-cta-label" data-i18n="p.vet.contact">Testing request</span>
+          <a href="#" data-link="email-vet" data-config="email_vet">vet@vetbiom.ru</a>
+        </div>
+      </div>
+
+      <!-- BLOCK 3: CONTACT FORM -->
+      <div class="partner-section" id="contact">
+        <h2 data-i18n="p.contact.title">Общие контакты</h2>
+        <p class="lead" data-i18n="p.contact.text">—</p>
+
+        <form class="form-card" action="contact.php" method="POST" novalidate>
+          <label>
+            <span data-i18n="form.name">Your name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span data-i18n="form.company">Company</span>
+            <input type="text" name="company" />
+          </label>
+          <label>
+            <span data-i18n="form.email">Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span data-i18n="form.subject">Subject</span>
+            <select name="subject">
+              <option value="supplier" data-i18n="form.subj1">Supplier</option>
+              <option value="vet" data-i18n="form.subj2">Vet / technologist</option>
+              <option value="partnership" data-i18n="form.subj3">Partnership</option>
+              <option value="general" data-i18n="form.subj4">General</option>
+            </select>
+          </label>
+          <label class="full">
+            <span data-i18n="form.message">Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary" data-i18n="form.submit">Send</button>
+          <p class="form-note" data-i18n="form.note">We respond within 1–2 business days.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"></footer>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+</body>
+</html>

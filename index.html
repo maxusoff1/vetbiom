@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VetBiom — ветеринарные синбиотики на основе S. boulardii</title>
+<meta name="description" content="R&D-компания BIOMA LAB разрабатывает ветеринарные синбиотики: S. boulardii + FOS в саше 1 г." />
+
+<link rel="alternate" hreflang="en" href="https://vetbiom.ru/?lang=en" />
+<link rel="alternate" hreflang="ru" href="https://vetbiom.ru/?lang=ru" />
+<link rel="alternate" hreflang="zh" href="https://vetbiom.ru/?lang=zh" />
+<link rel="alternate" hreflang="x-default" href="https://vetbiom.ru/" />
+
+<meta property="og:title" content="VetBiom — ветеринарные синбиотики" />
+<meta property="og:description" content="R&D-компания BIOMA LAB. S. boulardii + FOS в саше 1 г." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://vetbiom.ru/" />
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Onest:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+
+<header class="site-header"></header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#A8C3A0" stop-opacity="0.35"/>
+            <stop offset="100%" stop-color="#A8C3A0" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="650" cy="180" r="220" fill="url(#haze)"/>
+        <circle cx="120" cy="450" r="180" fill="url(#haze)"/>
+        <g stroke="#1F4D3A" stroke-width="0.7" fill="none" opacity="0.18">
+          <circle cx="700" cy="120" r="4" fill="#1F4D3A"/>
+          <circle cx="740" cy="160" r="3" fill="#1F4D3A"/>
+          <circle cx="680" cy="180" r="3" fill="#1F4D3A"/>
+          <circle cx="730" cy="210" r="2.5" fill="#1F4D3A"/>
+          <line x1="700" y1="120" x2="740" y2="160"/>
+          <line x1="740" y1="160" x2="680" y2="180"/>
+          <line x1="680" y1="180" x2="730" y2="210"/>
+          <line x1="700" y1="120" x2="680" y2="180"/>
+        </g>
+      </svg>
+    </div>
+    <div class="container hero-inner">
+      <p class="eyebrow" data-i18n="home.hero.eyebrow">R&D · Veterinary synbiotics</p>
+      <h1 class="page-title" data-i18n="home.hero.title">Veterinary synbiotics:<br/>stability proven through testing</h1>
+      <p class="lead" data-i18n="home.hero.subtitle">—</p>
+      <div class="hero-cta">
+        <a href="development.html" class="btn btn-primary" data-i18n="home.hero.cta1">Development process</a>
+        <a href="partners.html" class="btn btn-ghost" data-i18n="home.hero.cta2">For Suppliers</a>
+      </div>
+      <div class="hero-meta">
+        <span class="meta-dot"></span>
+        <span><span data-config="company_short_ru">ООО «БИОМА ЛАБ»</span> · ИНН <span data-config="inn">9723273920</span> · <span data-config="city_ru">Москва</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANCHOR CARDS -->
+  <section class="section section-tinted">
+    <div class="container">
+      <p class="eyebrow" data-i18n="home.anchors.eyebrow">What we do</p>
+      <div class="anchors">
+        <a href="about.html" class="anchor-card" data-reveal>
+          <div class="anchor-num">01</div>
+          <h3 data-i18n="home.anchor1.title">—</h3>
+          <p data-i18n="home.anchor1.text">—</p>
+          <span class="anchor-link" data-i18n="home.anchor1.link">About →</span>
+        </a>
+        <a href="development.html" class="anchor-card" data-reveal>
+          <div class="anchor-num">02</div>
+          <h3 data-i18n="home.anchor2.title">—</h3>
+          <p data-i18n="home.anchor2.text">—</p>
+          <span class="anchor-link" data-i18n="home.anchor2.link">Development →</span>
+        </a>
+        <a href="partners.html" class="anchor-card" data-reveal>
+          <div class="anchor-num">03</div>
+          <h3 data-i18n="home.anchor3.title">—</h3>
+          <p data-i18n="home.anchor3.text">—</p>
+          <span class="anchor-link" data-i18n="home.anchor3.link">Partners →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REPORTS -->
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow" data-i18n="home.reports.eyebrow">Latest results</p>
+      <h2 class="section-title" data-i18n="home.reports.title">Public reports on development progress</h2>
+      <p class="lead" data-i18n="home.reports.subtitle">—</p>
+
+      <div id="reportsGrid" class="report-grid" data-reveal>
+        <!-- Reports render via JS from REPORTS data -->
+      </div>
+
+      <p style="margin-top: 40px;">
+        <a href="knowledge.html" class="btn btn-ghost btn-sm" data-i18n="home.reports.all">All knowledge base materials →</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"></footer>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+  function renderReports(lang) {
+    const grid = document.getElementById('reportsGrid');
+    if (!grid) return;
+    grid.innerHTML = REPORTS.map(r => `
+      <article class="report-card">
+        <div class="report-meta">
+          <span class="report-tag">${r.tag[lang] || r.tag.en}</span>
+          <span>${fmtDate(r.date, lang)}</span>
+        </div>
+        <h3>${r.title[lang] || r.title.en}</h3>
+        <p>${r.summary[lang] || r.summary.en}</p>
+      </article>
+    `).join('');
+  }
+  function initPage(lang) { renderReports(lang); }
+  function onLangChange(lang) { renderReports(lang); }
+</script>
+</body>
+</html>

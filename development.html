@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Разработка продукта · VetBiom</title>
+<meta name="description" content="Этапы разработки ветеринарного синбиотика на основе S. boulardii: выбор штамма, активность воды, барьерная упаковка, тесты стабильности." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Onest:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="development">
+
+<header class="site-header"></header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow" data-i18n="dev.hero.eyebrow">Product development</p>
+      <h1 class="page-title" data-i18n="dev.hero.title">—</h1>
+      <p class="lead" data-i18n="dev.hero.subtitle">—</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <div id="stagesList" class="stages">
+        <!-- Stages render via JS from STAGES data -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tinted">
+    <div class="container narrow" style="text-align: center;">
+      <p class="eyebrow">→</p>
+      <h2 class="section-title" style="margin: 0 auto 16px;">Сотрудничество на этапе R&D</h2>
+      <p class="lead" style="margin: 0 auto 32px;">Если вы поставщик сырья, ветеринар-клиницист или технолог — приглашаем к участию в текущей фазе разработки.</p>
+      <a href="partners.html" class="btn btn-primary">К разделу для партнёров →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"></footer>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+  function renderStages(lang) {
+    const list = document.getElementById('stagesList');
+    if (!list) return;
+    list.innerHTML = STAGES.map(s => `
+      <article class="stage-card" data-reveal>
+        <div class="stage-num">
+          <span class="stage-num-label">Этап</span>
+          <span class="stage-num-value">${String(s.n).padStart(2,'0')}</span>
+        </div>
+        <div class="stage-body">
+          <h3>${s.title[lang] || s.title.en}</h3>
+          <p>${s.body[lang] || s.body.en}</p>
+        </div>
+      </article>
+    `).join('');
+  }
+  function initPage(lang) { renderStages(lang); }
+  function onLangChange(lang) { renderStages(lang); }
+</script>
+</body>
+</html>

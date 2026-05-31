@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>База знаний о S. boulardii · VetBiom</title>
+<meta name="description" content="Систематизированные данные о применении S. boulardii в ветеринарии." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Onest:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="knowledge">
+
+<header class="site-header"></header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow" data-i18n="kb.hero.eyebrow">Knowledge base</p>
+      <h1 class="page-title" data-i18n="kb.hero.title">—</h1>
+      <p class="lead" data-i18n="kb.hero.subtitle">—</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 40px;">
+    <div class="container">
+
+      <div id="kbFilters" class="kb-filters">
+        <!-- Filters render via JS -->
+      </div>
+
+      <div id="kbGrid" class="kb-grid">
+        <!-- Articles render via JS -->
+      </div>
+
+      <div class="kb-cta" data-reveal>
+        <div>
+          <h3 data-i18n="kb.cta.title">—</h3>
+          <p data-i18n="kb.cta.text">—</p>
+        </div>
+        <a href="partners.html#vet" class="btn btn-light" data-i18n="kb.cta.btn">Contact us</a>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"></footer>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+  let currentFilter = 'all';
+
+  function renderFilters(lang) {
+    const cats = ['all', ...new Set(ARTICLES_INDEX.map(a => a.category))];
+    const el = document.getElementById('kbFilters');
+    if (!el) return;
+    el.innerHTML = cats.map(c => `
+      <button type="button" class="kb-filter ${c === currentFilter ? 'is-active' : ''}" data-cat="${c}">
+        ${c === 'all' ? tr('kb.filterAll', lang) : c}
+      </button>
+    `).join('');
+    el.querySelectorAll('.kb-filter').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentFilter = btn.dataset.cat;
+        renderFilters(getCurrentLang());
+        renderArticles(getCurrentLang());
+      });
+    });
+  }
+
+  function renderArticles(lang) {
+    const grid = document.getElementById('kbGrid');
+    if (!grid) return;
+    const items = currentFilter === 'all'
+      ? ARTICLES_INDEX
+      : ARTICLES_INDEX.filter(a => a.category === currentFilter);
+    grid.innerHTML = items.map(a => `
+      <a href="article.html?slug=${a.slug}" class="kb-card" data-reveal>
+        <div class="kb-card-meta">
+          <span class="kb-card-cat">${a.category}</span>
+          <span>${a.reading_time} ${tr('kb.readingTime', lang)}</span>
+        </div>
+        <h3>${a.title}</h3>
+        <p>${a.description}</p>
+        <span class="kb-card-more" data-i18n-static>${tr('kb.readMore', lang)}</span>
+      </a>
+    `).join('');
+  }
+
+  function initPage(lang) { renderFilters(lang); renderArticles(lang); }
+  function onLangChange(lang) { renderFilters(lang); renderArticles(lang); }
+</script>
+</body>
+</html>
