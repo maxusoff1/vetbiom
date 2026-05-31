@@ -467,16 +467,14 @@ const I18N = {
 
     /* О компании */
     "about.hero.eyebrow":     "О компании",
-    "about.hero.title":       "BIOMA LAB: Синбиотик для ЖКТ, созданный по запросам практикующих ветеринаров",
-    "about.hero.subtitle":    "Рабочая связка S. boulardii + ФОС в стабильной форме. Продукт, который решает задачи, а не занимает место на полке.",
-    "about.block1.title":     "Почему появился этот продукт",
-    "about.block1.text":      "В работе с кормовыми добавками мы постоянно сталкиваемся с одной проблемой: пробиотики теряют эффективность еще до вскрытия упаковки. Заявленные КОЕ расходятся с реальностью из-за нарушений технологии производства и хранения.<br/><br/>BIOMA LAB создавался как ответ на этот запрос. Мы не экспериментируем с экзотическими составами, а берем золотой стандарт терапии диарей (S. boulardii + ФОС) и гарантируем его стабильность. Наша задача — дать рынку инструмент, в котором можно быть уверенным при каждом назначении.",
-    "about.block2.title":     "Фокус на технологии, а не на маркетинге",
-    "about.block2.text":      "Эффективность синбиотика определяется не только составом, но и сохранностью штамма. Мы выстроили производственную цепочку вокруг контроля критических параметров: активности воды (aw), совместимости пребиотика и барьерных свойств упаковки.<br/><br/>Результат — продукт, сохраняющий заявленные характеристики в течение всего срока годности при комнатной температуре. Это подтверждено внутренними протоколами стабильности, а не только сертификатами поставщиков сырья.",
-    "about.block3.title":     "Прозрачность как стандарт работы",
-    "about.block3.text":      "Мы работаем в профессиональном сегменте, где доверие строится на фактах.<br/><br/><strong>Верифицируемые данные.</strong> Готовы предоставить результаты тестов на выживаемость штаммов по запросу.<br/><br/><strong>Честная коммуникация.</strong> Открыто обсуждаем технические нюансы и ограничения продукта.<br/><br/><strong>Развитие линейки.</strong> Текущая формула — база. На основе обратной связи от специалистов мы масштабируем ассортимент, включая разработку препаратов с бактериофагами.",
-    "about.block4.title":     "Сотрудничество",
-    "about.block4.text":      "BIOMA LAB открыт для диалога с ветеринарными врачами, технологами и дистрибьюторами кормовых добавок. Мы ценим экспертизу коллег и строим долгосрочные партнерские отношения.<br/><br/>Свяжитесь с нами, чтобы обсудить технические детали продукта или возможности сотрудничества.",
+    "about.hero.title":       "BIOMA LAB: Синбиотик для кошек и собак, который работает как заявлено",
+    "about.hero.subtitle":    "S. boulardii + ФОС в правильной концентрации. Стабильность подтверждена тестами, а не маркетингом.",
+    "about.block1.title":     "Кто мы и почему это важно",
+    "about.block1.text":      "BIOMA LAB основана специалистами с ветеринарным бэкграундом. Мы видели, как часто на рынке встречается подмена понятий: красивые этикетки, но слабые составы или ингредиенты, которые теряют активность еще до вскрытия упаковки.<br/><br/>Мы создали компанию, чтобы убрать эту неопределенность. Наш подход научно обоснован: мы берем проверенные решения (как S. boulardii при диарее) и гарантируем, что в каждом саше ровно та концентрация, которая нужна для терапевтического эффекта. Никакого «ingredient bait and switch».",
+    "about.block2.title":     "Наш продукт и принципы",
+    "about.block2.text":      "Первый продукт — синбиотик для поддержки ЖКТ и купирования острой диареи. Формула проста и эффективна: Saccharomyces boulardii + фруктоолигосахариды (ФОС).<br/><br/>Мы работаем по трем правилам:<br/><br/><strong>Правильная концентрация.</strong> Используем дозы, которые дают заметный клинический эффект, а не просто присутствуют в составе.<br/><br/><strong>Качество без компромиссов.</strong> Контролируем активность воды, совместимость компонентов и барьерные свойства упаковки. Продукт стабилен при комнатной температуре.<br/><br/><strong>Честность.</strong> Если что-то не работает или требует доработки — говорим прямо. Доверие важнее разовой продажи.",
+    "about.block3.title":     "Развитие и открытость",
+    "about.block3.text":      "Текущий синбиотик — база. Мы уже планируем расширение линейки, включая препараты с бактериофагами, опираясь на реальные запросы ветеринаров и данные о микробиоме.<br/><br/>Мы уверены в продукте, поэтому даем гарантию: если средство не подойдет, мы вернем деньги или заменим товар.<br/><br/>BIOMA LAB открыт для сотрудничества с ветеринарами, технологами и дистрибьюторами. Пишите, обсудим детали и ответы на любые технические вопросы.",
 
     /* Разработка */
     "dev.hero.eyebrow":       "Разработка продукта",
@@ -590,16 +588,14 @@ const I18N = {
 
     /* About */
     "about.hero.eyebrow":     "About",
-    "about.hero.title":       "BIOMA LAB: A GI Synbiotic Built on Veterinary Feedback",
-    "about.hero.subtitle":    "Proven S. boulardii + FOS formula in a stable format. A product designed to solve clinical problems, not just fill shelf space.",
-    "about.block1.title":     "Why This Product Exists",
-    "about.block1.text":      "In the feed supplement industry, we consistently encounter one issue: probiotics lose efficacy before the package is even opened. Stated CFU counts often diverge from reality due to manufacturing and storage flaws.<br/><br/>BIOMA LAB was established to address this gap. We aren't experimenting with exotic blends; we take the gold standard for diarrhea management (S. boulardii + FOS) and guarantee its stability. Our mission is to provide the market with a tool professionals can trust with every prescription.",
-    "about.block2.title":     "Technology Over Marketing",
-    "about.block2.text":      "A synbiotic's effectiveness depends as much on strain viability as on its formula. We've built our production chain around controlling critical parameters: water activity (aw), prebiotic compatibility, and packaging barrier properties.<br/><br/>The result is a product that maintains its stated specifications throughout its shelf life at room temperature — verified by internal stability protocols, not just raw material certificates.",
-    "about.block3.title":     "Transparency as Standard Practice",
-    "about.block3.text":      "Operating in the professional segment means trust is built on facts.<br/><br/><strong>Verifiable Data.</strong> Strain survival test results available upon request.<br/><br/><strong>Honest Communication.</strong> Open discussion of technical nuances and product limitations.<br/><br/><strong>Pipeline Development.</strong> Current formula is the foundation. Based on specialist feedback, we are expanding the line, including bacteriophage-based products.",
-    "about.block4.title":     "Partnership",
-    "about.block4.text":      "BIOMA LAB welcomes dialogue with veterinarians, technologists, and feed supplement distributors. We value peer expertise and build long-term partnerships.<br/><br/>Contact us to discuss technical specifications or collaboration opportunities.",
+    "about.hero.title":       "BIOMA LAB: A Synbiotic for Cats & Dogs That Works as Stated",
+    "about.hero.subtitle":    "S. boulardii + FOS at the right concentration. Stability verified by testing, not marketing.",
+    "about.block1.title":     "Who We Are & Why It Matters",
+    "about.block1.text":      "BIOMA LAB was founded by professionals with veterinary backgrounds. We've seen how often the market suffers from misleading labels: weak formulas or ingredients that lose potency before the package is even opened.<br/><br/>We built this company to eliminate that uncertainty. Our approach is scientifically driven: we take proven solutions (like S. boulardii for diarrhea) and guarantee every sachet delivers the exact concentration needed for therapeutic effect. No ingredient bait-and-switch.",
+    "about.block2.title":     "Our Product & Principles",
+    "about.block2.text":      "Our first product is a synbiotic for GI support and acute diarrhea management. The formula is simple and effective: Saccharomyces boulardii + Fructooligosaccharides (FOS).<br/><br/>We operate by three rules:<br/><br/><strong>Correct Concentration.</strong> We use doses that deliver noticeable clinical results, not just token amounts.<br/><br/><strong>Uncompromising Quality.</strong> We control water activity, ingredient compatibility, and packaging barriers. The product is stable at room temperature.<br/><br/><strong>Honesty.</strong> If something isn't working or needs refinement, we say so. Trust matters more than a single sale.",
+    "about.block3.title":     "Growth & Openness",
+    "about.block3.text":      "This synbiotic is our foundation. We are already planning line expansions, including bacteriophage-based products, guided by real veterinary feedback and microbiome data.<br/><br/>We stand behind our product with a guarantee: if it doesn't work for your patient, we'll refund or replace it.<br/><br/>BIOMA LAB welcomes collaboration with veterinarians, technologists, and distributors. Reach out to discuss technical details or partnership opportunities.",
 
     /* Dev */
     "dev.hero.eyebrow":       "Product development",
@@ -713,16 +709,14 @@ const I18N = {
 
     /* About */
     "about.hero.eyebrow":     "关于公司",
-    "about.hero.title":       "BIOMA LAB：源自兽医临床需求的肠道合生元",
-    "about.hero.subtitle":    "布拉氏酵母菌 + FOS 黄金组合，稳定剂型。专为解决实际问题而生，拒绝无效堆料。",
-    "about.block1.title":     "产品诞生背景",
-    "about.block1.text":      "在饲料添加剂领域，我们始终面临一个痛点：益生菌在开封前就已失活。由于生产和储运工艺缺陷，标示活菌数往往与实际不符。<br/><br/>BIOMA LAB 正是为解决这一问题而创立。我们不盲目追求新奇概念，而是聚焦腹泻管理的黄金标准（布拉氏酵母菌 + FOS），并确保其稳定性。我们的目标是为市场提供一款每次处方都值得信赖的专业工具。",
-    "about.block2.title":     "技术优先，拒绝营销噱头",
-    "about.block2.text":      "合生元的功效不仅取决于配方，更取决于菌株存活率。我们围绕关键参数构建生产体系：严格控制水分活度 (aw)、益生元兼容性及包装阻隔性能。<br/><br/>最终产品可在室温下全程保持标示规格——这由内部稳定性验证协议支撑，而非仅依赖原料供应商证书。",
-    "about.block3.title":     "透明化运营标准",
-    "about.block3.text":      "深耕专业领域，信任源于事实。<br/><br/><strong>数据可验证：</strong>可根据要求提供菌株存活测试报告。<br/><br/><strong>坦诚沟通：</strong>公开探讨技术细节与产品局限性。<br/><br/><strong>持续迭代：</strong>现有配方为基础，结合专家反馈拓展产品线，包括噬菌体制剂研发。",
-    "about.block4.title":     "合作邀约",
-    "about.block4.text":      "BIOMA LAB 诚邀兽医、技术人员及饲料添加剂经销商交流。我们尊重行业智慧，致力于建立长期伙伴关系。<br/><br/>欢迎联系我们，洽谈产品技术细节或合作事宜。",
+    "about.hero.title":       "BIOMA LAB：猫狗合生元，功效如实标示",
+    "about.hero.subtitle":    "布拉氏酵母菌 + FOS，足量添加。稳定性经实测验证，拒绝营销噱头。",
+    "about.block1.title":     "我们是谁 & 为何重要",
+    "about.block1.text":      "BIOMA LAB 由具备兽医背景的专业人士创立。我们深知行业痛点：标签夸大、配方薄弱，或成分在开封前就已失活。<br/><br/>创立公司的初衷就是消除这种不确定性。我们坚持科学驱动：采用经过验证的方案（如布拉氏酵母菌用于腹泻管理），并确保每袋产品都含有达到治疗效果所需的精确浓度。绝不偷换概念、虚标成分。",
+    "about.block2.title":     "产品与原则",
+    "about.block2.text":      "首款产品为肠道支持及急性腹泻管理合生元。配方简洁高效：布拉氏酵母菌 (Saccharomyces boulardii) + 低聚果糖 (FOS)。<br/><br/>我们恪守三大准则：<br/><br/><strong>足量有效。</strong>添加量能产生明确临床效果，绝非象征性微量。<br/><br/><strong>品质不妥协。</strong>严格控制水分活度、成分兼容性及包装阻隔性，确保室温下全程稳定。<br/><br/><strong>坦诚相待。</strong>若存在问题或需改进，我们如实告知。信任重于单次销售。",
+    "about.block3.title":     "发展与开放",
+    "about.block3.text":      "当前合生元是产品线基础。我们正基于真实兽医反馈和微生物组数据，规划包括噬菌体制剂在内的新品拓展。<br/><br/>我们对产品充满信心，提供保障：若效果未达预期，可全额退款或换货。<br/><br/>BIOMA LAB 诚邀兽医、技术人员及经销商合作。欢迎联系洽谈技术细节或合作事宜。",
 
     /* Dev */
     "dev.hero.eyebrow":       "产品研发",
