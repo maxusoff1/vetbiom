@@ -43,11 +43,11 @@
   }
 
   function matchWord(w, kw) {
-    if (kw.startsWith(w) || w.startsWith(kw)) return true;
+    if (kw.startsWith(w) || w.startsWith(kw)) return 2;
     if (Math.abs(w.length - kw.length) <= 2 && Math.max(w.length, kw.length) >= 3) {
-      return levDist(w, kw, 2) <= 2;
+      return levDist(w, kw, 2) <= 2 ? 1 : 0;
     }
-    return false;
+    return 0;
   }
 
   function findFAQ(text) {
@@ -57,15 +57,13 @@
       let score = 0;
       for (const w of words) {
         for (const kw of entry.kw) {
-          if (kw.length >= 2 && w.length >= 2 && matchWord(w, kw)) {
-            score++;
-            break;
-          }
+          const s = matchWord(w, kw);
+          if (s > 0) { score += s; break; }
         }
       }
       if (score > bestScore) { bestScore = score; best = entry; }
     }
-    return bestScore >= 1 ? best.a : null;
+    return bestScore >= 3 ? best.a : null;
   }
 
   // ── CSS ──
