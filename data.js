@@ -55,7 +55,7 @@ const CONFIG = {
   wechat_display:    'Project Manager',
   whatsapp_number:   '',                            // заполните, например: '79991234567'
   whatsapp_display:  '',                            // как показывать: '+7 999 123-45-67'
-  telegram_username: '',                            // без @, например: 'vetbiom'
+  telegram_username: 'BiomaLabBot',                 // без @, например: 'vetbiom'
 
   // Соцсети (опционально, оставьте пустыми если не используете)
   social_vk:        '',
@@ -365,6 +365,7 @@ const I18N = {
     "home.hero.subtitle": "Разрабатываем и производим стабильные формулы на основе <em>Saccharomyces boulardii</em> и пребиотиков. Эффективность подтверждена протоколами, а не маркетингом. Решения для ветеринарной практики, устойчивые к антибиотикам и условиям хранения.",
     "home.hero.cta1":     "Каталог решений",
     "home.hero.cta2":     "Для специалистов",
+    "home.hero.cta3":     "Консультация в Telegram →",
     "home.hero.meta":     "ООО «БИОМА ЛАБ» · R&D и производство в РФ",
 
     "home.approach.eyebrow": "Подход",
@@ -471,6 +472,7 @@ const I18N = {
     "footer.legalBlock":      "Юридическая информация",
     "footer.contactBlock":    "Контакты",
     "footer.linksBlock":      "Разделы",
+    "footer.telegram":        "Telegram: @BiomaLabBot",
     "footer.copy":            "© 2026 ООО «БИОМА ЛАБ». Все права защищены."
   },
 
@@ -500,6 +502,7 @@ const I18N = {
     "home.hero.subtitle": "We develop and manufacture stable formulations based on <em>Saccharomyces boulardii</em> and prebiotics. Efficacy verified by protocols, not marketing. Solutions for veterinary practice — resistant to antibiotics and storage conditions.",
     "home.hero.cta1":     "Solution Catalog",
     "home.hero.cta2":     "For Professionals",
+    "home.hero.cta3":     "Chat on Telegram →",
     "home.hero.meta":     "BIOMA LAB LLC · R&D and Manufacturing in Russia",
 
     "home.approach.eyebrow": "Approach",
@@ -606,6 +609,7 @@ const I18N = {
     "footer.legalBlock":      "Legal information",
     "footer.contactBlock":    "Contacts",
     "footer.linksBlock":      "Sections",
+    "footer.telegram":        "Telegram: @BiomaLabBot",
     "footer.copy":            "© 2026 BIOMA LAB LLC. All rights reserved."
   },
 
@@ -635,6 +639,7 @@ const I18N = {
     "home.hero.subtitle": "我们研发和生产基于 <em>Saccharomyces boulardii</em> 及益生元的稳定配方。功效经实验方案验证，而非营销包装。适用于兽医临床——耐抗生素、耐储存条件。",
     "home.hero.cta1":     "解决方案目录",
     "home.hero.cta2":     "专业人士专区",
+    "home.hero.cta3":     "Telegram 咨询 →",
     "home.hero.meta":     "BIOMA LAB 有限责任公司 · 在俄研发与生产",
 
     "home.approach.eyebrow": "理念",
@@ -741,6 +746,7 @@ const I18N = {
     "footer.legalBlock":      "法律信息",
     "footer.contactBlock":    "联系方式",
     "footer.linksBlock":      "栏目",
+    "footer.telegram":        "Telegram: @BiomaLabBot",
     "footer.copy":            "© 2026 BIOMA LAB LLC. 版权所有。"
   }
 };
