@@ -120,18 +120,7 @@ function renderHeader() {
   const html = `
     <div class="container header-inner">
       <a href="index.html" class="logo" aria-label="VetBiom">
-        <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="20" cy="20" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/>
-          <circle cx="20" cy="20" r="2.2" fill="currentColor"/>
-          <circle cx="6"  cy="14" r="2.6" fill="currentColor" opacity="0.85"/>
-          <circle cx="34" cy="13" r="2.2" fill="currentColor" opacity="0.7"/>
-          <circle cx="32" cy="30" r="2.8" fill="currentColor" opacity="0.9"/>
-          <circle cx="9"  cy="31" r="2"   fill="currentColor" opacity="0.6"/>
-          <line x1="8"  y1="15" x2="15" y2="18" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-          <line x1="33" y1="14" x2="24" y2="18" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-          <line x1="30" y1="29" x2="24" y2="23" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-          <line x1="11" y1="30" x2="17" y2="24" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-        </svg>
+        <img src="logo.png" alt="" class="logo-mark logo-img" width="40" height="40" />
         <span class="logo-text" data-i18n-brand>VetBiom</span>
       </a>
       <nav class="main-nav" aria-label="Main">
