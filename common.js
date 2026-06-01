@@ -97,7 +97,17 @@ function applyConfig() {
       case 'email-legal':      href = 'mailto:' + CONFIG.email_legal; break;
       case 'whatsapp':         if (CONFIG.whatsapp_number) href = 'https://wa.me/' + CONFIG.whatsapp_number; break;
       case 'telegram':         if (CONFIG.telegram_username) href = 'https://t.me/' + CONFIG.telegram_username; break;
-      case 'wechat':           el.setAttribute('title', 'WeChat ID: ' + CONFIG.wechat_id); break;
+      case 'wechat':           el.setAttribute('title', 'WeChat ID: ' + CONFIG.wechat_id);
+                               el.addEventListener('click', function(e) {
+                                 e.preventDefault();
+                                 if (navigator.clipboard && navigator.clipboard.writeText) {
+                                   navigator.clipboard.writeText(CONFIG.wechat_id).then(() => {
+                                     const orig = this.textContent;
+                                     this.innerHTML = 'WeChat ID скопирован ✓';
+                                     setTimeout(() => { this.innerHTML = orig; }, 2000);
+                                   });
+                                 }
+                               }); break;
     }
     if (el.tagName === 'A' && href !== '#') el.setAttribute('href', href);
   });

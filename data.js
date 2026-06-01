@@ -52,7 +52,7 @@ const CONFIG = {
   email_legal:       'biomalab@yandex.ru',         // юридический (из ЕГРЮЛ)
 
   wechat_id:         'wxid_xvlqim4aq97f22',
-  wechat_display:    'Maksim Zheludkov',
+  wechat_display:    'Project Manager',
   whatsapp_number:   '',                            // заполните, например: '79991234567'
   whatsapp_display:  '',                            // как показывать: '+7 999 123-45-67'
   telegram_username: '',                            // без @, например: 'vetbiom'
