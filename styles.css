@@ -891,42 +891,60 @@ a { color: inherit; text-decoration: none; }
   .hero { padding: 60px 0 40px; }
   .form-card { grid-template-columns: 1fr; padding: 24px; }
   .footer-grid { grid-template-columns: 1fr; }
-  /* Mobile font size boost */
-  html, body { font-size: 16px; }
-  .page-title { font-size: clamp(30px, 8vw, 40px); }
-  .section-title { font-size: clamp(26px, 6vw, 30px); }
+
+  /* Mobile typography */
+  .page-title { font-size: clamp(30px, 8vw, 38px); }
+  .section-title { font-size: clamp(26px, 6.5vw, 30px); }
   .lead { font-size: 16px; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.14em; }
+  .eyebrow { font-size: 11px; }
+
+  .anchor-card { padding: 28px 22px; }
   .anchor-card h3 { font-size: 22px; }
   .anchor-card p { font-size: 14px; }
-  .report-card h3 { font-size: 18px; }
+
+  .report-card { padding: 22px; }
+  .report-card h3 { font-size: 20px; }
   .report-card p { font-size: 14px; }
-  .stage-body h3 { font-size: 22px; }
-  .stage-body p { font-size: 14px; }
-  .info-block h3 { font-size: 22px; }
-  .kb-card h3 { font-size: 18px; }
+
+  .kb-card { padding: 22px; }
+  .kb-card h3 { font-size: 19px; }
   .kb-card p { font-size: 14px; }
-  .kb-card-cat { font-size: 11px; }
+
   .kb-cta { padding: 28px; }
   .kb-cta h3 { font-size: 22px; }
+  .kb-cta p { font-size: 14px; }
+
+  .stage-card { padding: 24px; }
+  .stage-body h3 { font-size: 22px; }
+  .stage-body p { font-size: 14px; }
+  .stage-num-value { font-size: 36px; }
+
+  .info-block { gap: 12px; }
+  .info-block h3 { font-size: 24px; }
+  .info-block-body p { font-size: 15px; }
+
+  .director-card { flex-direction: column; align-items: flex-start; }
+  .director-info strong { font-size: 20px; }
+
+  /* Article page */
+  .article-header { padding: 50px 0 30px; margin-bottom: 30px; }
   .article-title { font-size: clamp(26px, 7vw, 32px); }
-  .article-body { font-size: 16px; line-height: 1.7; }
-  .article-body h2 { font-size: 26px; }
-  .article-body h3 { font-size: 20px; }
-  .hero-inner { max-width: 100%; }
-  .logo-text { font-size: 22px; }
-  .main-nav.is-open { padding: 20px; gap: 16px; }
-  .main-nav a { font-size: 16px; }
-  .urgent-card-light { padding: 24px; }
-  .urgent-items-list li { font-size: 14px; }
-  .also-list li { font-size: 14px; }
-  .partner-section h2 { font-size: clamp(24px, 6vw, 28px); }
-  .footer-grid { gap: 32px; }
-  .kb-filter { font-size: 12px; padding: 6px 12px; }
-  .stage-num-value { font-size: 32px; }
   .article-description { font-size: 16px; }
-  .company-table .row { font-size: 14px; }
+  .article-body { font-size: 16px; line-height: 1.7; padding-bottom: 50px; }
+  .article-body h2 { font-size: 26px; margin: 34px 0 16px; }
+  .article-body h3 { font-size: 21px; margin: 28px 0 14px; }
+
+  .partner-section h2 { font-size: 26px; }
+  .partner-section .lead { font-size: 15px; }
+
+  .urgent-card-light { padding: 24px; }
+  .urgent-items-list li { font-size: 15px; }
+
+  .company-table .row { grid-template-columns: 1fr; gap: 2px; }
   .company-table dt { font-size: 12px; }
   .company-table dd { font-size: 14px; }
-  .header-inner { padding: 10px 20px; min-height: 56px; }
+
+  .logo-text { font-size: 22px; }
+  .main-nav a { font-size: 16px; padding: 8px 0; }
+  .btn { font-size: 14px; padding: 11px 18px; }
 }

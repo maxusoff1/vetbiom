@@ -2,7 +2,7 @@
    article.js — рендеринг статьи из markdown
    ========================================================= */
 
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
   const params = new URLSearchParams(location.search);
   const slug = params.get('slug');
 
@@ -42,22 +42,10 @@ document.addEventListener('DOMContentLoaded', function() {
     .then(md => {
       // Strip frontmatter if present
       const cleaned = md.replace(/^---[\s\S]*?---\s*/, '');
-      // Try to render with marked, fallback to plain text if marked is missing or fails
-      function renderMarkdown(text) {
-        if (typeof marked !== 'undefined' && typeof marked.parse === 'function') {
-          try { return marked.parse(text); } catch(e) { /* fallback */ }
-        }
-        return text.split('\n').map(l => {
-          if (l.startsWith('## ')) return '<h2>' + l.slice(3) + '</h2>';
-          if (l.startsWith('**') && l.endsWith('**')) return '<p><strong>' + l.slice(2, -2) + '</strong></p>';
-          if (l.trim() === '') return '';
-          return '<p>' + l + '</p>';
-        }).join('\n');
-      }
       // Check if it's a placeholder (very short)
       if (cleaned.trim().length < 200) {
         body.innerHTML = `
-          ${renderMarkdown(cleaned)}
+          ${marked.parse(cleaned)}
           <div class="article-placeholder">
             ${tr ? tr('kb.article.placeholder') : 'Эта статья находится в подготовке.'}
             <br/><br/>
@@ -65,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         `;
       } else {
-        body.innerHTML = renderMarkdown(cleaned);
+        body.innerHTML = marked.parse(cleaned);
       }
     })
     .catch(() => {
@@ -77,4 +65,4 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
     });
-});
+})();

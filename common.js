@@ -223,19 +223,19 @@ function setupMobileMenu() {
 
 function setupScrollReveal() {
   if (!('IntersectionObserver' in window)) return;
-  if (!window.__revealIo) {
-    window.__revealIo = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('is-visible');
-          window.__revealIo.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-  }
-  document.querySelectorAll('[data-reveal]').forEach(el => window.__revealIo.observe(el));
+  if (window.__revealIo) return;
+  window.__revealIo = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('is-visible');
+        window.__revealIo.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  // Observe all current and future [data-reveal] elements
+  observeRevealChildren(document);
 }
-/* Helper: observe newly added [data-reveal] elements inside a container */
+
 function observeRevealChildren(container) {
   if (!window.__revealIo) setupScrollReveal();
   if (window.__revealIo) {

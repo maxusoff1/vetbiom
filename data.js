@@ -467,14 +467,15 @@ const I18N = {
 
     /* О компании */
     "about.hero.eyebrow":     "О компании",
-    "about.hero.title":       "BIOMA LAB: Синбиотик для кошек и собак, который работает как заявлено",
-    "about.hero.subtitle":    "S. boulardii + ФОС в правильной концентрации. Стабильность подтверждена тестами, а не маркетингом.",
-    "about.block1.title":     "Кто мы и почему это важно",
-    "about.block1.text":      "BIOMA LAB основана специалистами с ветеринарным бэкграундом. Мы видели, как часто на рынке встречается подмена понятий: красивые этикетки, но слабые составы или ингредиенты, которые теряют активность еще до вскрытия упаковки.<br/><br/>Мы создали компанию, чтобы убрать эту неопределенность. Наш подход научно обоснован: мы берем проверенные решения (как S. boulardii при диарее) и гарантируем, что в каждом саше ровно та концентрация, которая нужна для терапевтического эффекта. Никакого «ingredient bait and switch».",
-    "about.block2.title":     "Наш продукт и принципы",
-    "about.block2.text":      "Первый продукт — синбиотик для поддержки ЖКТ и купирования острой диареи. Формула проста и эффективна: Saccharomyces boulardii + фруктоолигосахариды (ФОС).<br/><br/>Мы работаем по трем правилам:<br/><br/><strong>Правильная концентрация.</strong> Используем дозы, которые дают заметный клинический эффект, а не просто присутствуют в составе.<br/><br/><strong>Качество без компромиссов.</strong> Контролируем активность воды, совместимость компонентов и барьерные свойства упаковки. Продукт стабилен при комнатной температуре.<br/><br/><strong>Честность.</strong> Если что-то не работает или требует доработки — говорим прямо. Доверие важнее разовой продажи.",
-    "about.block3.title":     "Развитие и открытость",
-    "about.block3.text":      "Текущий синбиотик — база. Мы уже планируем расширение линейки, включая препараты с бактериофагами, опираясь на реальные запросы ветеринаров и данные о микробиоме.<br/><br/>Мы уверены в продукте, поэтому даем гарантию: если средство не подойдет, мы вернем деньги или заменим товар.<br/><br/>BIOMA LAB открыт для сотрудничества с ветеринарами, технологами и дистрибьюторами. Пишите, обсудим детали и ответы на любые технические вопросы.",
+    "about.hero.title":       "R&D-компания в области ветеринарных синбиотиков",
+    "about.block1.title":     "Компания",
+    "about.block2.title":     "Специализация",
+    "about.block2.text":      "Мы решаем конкретную задачу: создать стабильный при комнатной температуре синбиотик для животных в форме саше 1 г. Сочетание Saccharomyces boulardii и ФОС, подтверждённое тестами на выживаемость.",
+    "about.block3.title":     "Почему мы это делаем",
+    "about.block3.text":      "На рынке ветеринарных пробиотиков мы видим разрыв между заявленными КОЕ на упаковке и реальной выживаемостью штамма к концу срока годности. Часто проблема не в штамме, а в технологии смешивания и упаковки. Мы сфокусировались на этом этапе: активность воды, барьерные свойства материалов, совместимость компонентов. Цель — продукт, чьи характеристики подтверждены тестом, а не только спецификацией.",
+    "about.block4.title":     "Руководство",
+    "about.block5.title":     "Текущий статус",
+    "about.block5.text":      "R&D и тестирование прототипов. Формирование пула поставщиков сырья и упаковочных материалов. Программа стабильности первого прототипа — в активной фазе. Плановый выход на регистрацию: 2027.",
 
     /* Разработка */
     "dev.hero.eyebrow":       "Разработка продукта",
@@ -588,14 +589,15 @@ const I18N = {
 
     /* About */
     "about.hero.eyebrow":     "About",
-    "about.hero.title":       "BIOMA LAB: A Synbiotic for Cats & Dogs That Works as Stated",
-    "about.hero.subtitle":    "S. boulardii + FOS at the right concentration. Stability verified by testing, not marketing.",
-    "about.block1.title":     "Who We Are & Why It Matters",
-    "about.block1.text":      "BIOMA LAB was founded by professionals with veterinary backgrounds. We've seen how often the market suffers from misleading labels: weak formulas or ingredients that lose potency before the package is even opened.<br/><br/>We built this company to eliminate that uncertainty. Our approach is scientifically driven: we take proven solutions (like S. boulardii for diarrhea) and guarantee every sachet delivers the exact concentration needed for therapeutic effect. No ingredient bait-and-switch.",
-    "about.block2.title":     "Our Product & Principles",
-    "about.block2.text":      "Our first product is a synbiotic for GI support and acute diarrhea management. The formula is simple and effective: Saccharomyces boulardii + Fructooligosaccharides (FOS).<br/><br/>We operate by three rules:<br/><br/><strong>Correct Concentration.</strong> We use doses that deliver noticeable clinical results, not just token amounts.<br/><br/><strong>Uncompromising Quality.</strong> We control water activity, ingredient compatibility, and packaging barriers. The product is stable at room temperature.<br/><br/><strong>Honesty.</strong> If something isn't working or needs refinement, we say so. Trust matters more than a single sale.",
-    "about.block3.title":     "Growth & Openness",
-    "about.block3.text":      "This synbiotic is our foundation. We are already planning line expansions, including bacteriophage-based products, guided by real veterinary feedback and microbiome data.<br/><br/>We stand behind our product with a guarantee: if it doesn't work for your patient, we'll refund or replace it.<br/><br/>BIOMA LAB welcomes collaboration with veterinarians, technologists, and distributors. Reach out to discuss technical details or partnership opportunities.",
+    "about.hero.title":       "R&D company in veterinary synbiotics",
+    "about.block1.title":     "Company",
+    "about.block2.title":     "Specialization",
+    "about.block2.text":      "We solve a concrete problem: create a room-temperature stable synbiotic for animals in 1 g sachet format. Combination of Saccharomyces boulardii and FOS, verified by viability testing.",
+    "about.block3.title":     "Why we do this",
+    "about.block3.text":      "In the veterinary probiotics market we see a gap between CFU claims on the label and the actual strain viability at the end of shelf life. Often the issue is not the strain itself, but the mixing technology and packaging. We focused on this stage: water activity, barrier properties of materials, component compatibility. Our goal — a product whose characteristics are proven by test, not just by specification.",
+    "about.block4.title":     "Leadership",
+    "about.block5.title":     "Current status",
+    "about.block5.text":      "R&D and prototype testing. Building a pool of suppliers for raw materials and packaging. The first prototype stability programme is in active phase. Planned registration: 2027.",
 
     /* Dev */
     "dev.hero.eyebrow":       "Product development",
@@ -709,14 +711,15 @@ const I18N = {
 
     /* About */
     "about.hero.eyebrow":     "关于公司",
-    "about.hero.title":       "BIOMA LAB：猫狗合生元，功效如实标示",
-    "about.hero.subtitle":    "布拉氏酵母菌 + FOS，足量添加。稳定性经实测验证，拒绝营销噱头。",
-    "about.block1.title":     "我们是谁 & 为何重要",
-    "about.block1.text":      "BIOMA LAB 由具备兽医背景的专业人士创立。我们深知行业痛点：标签夸大、配方薄弱，或成分在开封前就已失活。<br/><br/>创立公司的初衷就是消除这种不确定性。我们坚持科学驱动：采用经过验证的方案（如布拉氏酵母菌用于腹泻管理），并确保每袋产品都含有达到治疗效果所需的精确浓度。绝不偷换概念、虚标成分。",
-    "about.block2.title":     "产品与原则",
-    "about.block2.text":      "首款产品为肠道支持及急性腹泻管理合生元。配方简洁高效：布拉氏酵母菌 (Saccharomyces boulardii) + 低聚果糖 (FOS)。<br/><br/>我们恪守三大准则：<br/><br/><strong>足量有效。</strong>添加量能产生明确临床效果，绝非象征性微量。<br/><br/><strong>品质不妥协。</strong>严格控制水分活度、成分兼容性及包装阻隔性，确保室温下全程稳定。<br/><br/><strong>坦诚相待。</strong>若存在问题或需改进，我们如实告知。信任重于单次销售。",
-    "about.block3.title":     "发展与开放",
-    "about.block3.text":      "当前合生元是产品线基础。我们正基于真实兽医反馈和微生物组数据，规划包括噬菌体制剂在内的新品拓展。<br/><br/>我们对产品充满信心，提供保障：若效果未达预期，可全额退款或换货。<br/><br/>BIOMA LAB 诚邀兽医、技术人员及经销商合作。欢迎联系洽谈技术细节或合作事宜。",
+    "about.hero.title":       "兽用合生元领域的研发公司",
+    "about.block1.title":     "公司",
+    "about.block2.title":     "专业方向",
+    "about.block2.text":      "我们解决一个具体问题:打造 1 克小袋装、室温稳定的动物合生元产品。Saccharomyces boulardii 与 FOS 的组合,经活力测试验证。",
+    "about.block3.title":     "我们为什么这样做",
+    "about.block3.text":      "在兽用益生菌市场,我们看到标签上声明的 CFU 与保质期末实际菌株活力之间存在差距。问题往往不在于菌株本身,而在于混合工艺和包装。我们专注于这一阶段:水分活度、材料的阻隔性能、组分兼容性。我们的目标是产品的特性由测试证明,而不仅仅是由规格说明。",
+    "about.block4.title":     "领导团队",
+    "about.block5.title":     "当前状态",
+    "about.block5.text":      "研发和原型测试。建立原料和包装供应商池。第一个原型的稳定性项目处于活跃阶段。计划注册时间:2027 年。",
 
     /* Dev */
     "dev.hero.eyebrow":       "产品研发",
