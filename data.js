@@ -381,7 +381,7 @@ const I18N = {
     "home.reports.all":       "Все материалы базы знаний →",
 
     /* О компании */
-    "about.hero.title":       "Синбиотик для ЖКТ, созданный по запросам практикующих ветеринаров",
+    "about.hero.title":       "Продукты для животных, созданные по запросам практикующих ветеринаров",
     "about.hero.subtitle":    "Рабочая связка <em>S. boulardii</em> + ФОС в стабильной форме. Продукт, который решает задачи, а не занимает место на полке.",
     "about.b1.title":         "Почему появился этот продукт",
     "about.b1.body":          "<p>В работе с кормовыми добавками мы постоянно сталкиваемся с одной проблемой: пробиотики теряют эффективность еще до вскрытия упаковки. Заявленные КОЕ расходятся с реальностью из-за нарушений технологии производства и хранения.</p><p>BIOMA LAB создавался как ответ на этот запрос. Мы не экспериментируем с экзотическими составами, а берем золотой стандарт терапии диарей (<em>S. boulardii</em> + ФОС) и гарантируем его стабильность. Наша задача — дать рынку инструмент, в котором можно быть уверенным при каждом назначении.</p>",
@@ -501,7 +501,7 @@ const I18N = {
     "home.reports.all":       "All knowledge base materials →",
 
     /* About */
-    "about.hero.title":       "A GI Synbiotic Built on Veterinary Feedback",
+    "about.hero.title":       "Animal Health Products Built on Veterinary Feedback",
     "about.hero.subtitle":    "Proven <em>S. boulardii</em> + FOS formula in a stable format. A product designed to solve clinical problems, not just fill shelf space.",
     "about.b1.title":         "Why This Product Exists",
     "about.b1.body":          "<p>In the feed supplement industry, we consistently encounter one issue: probiotics lose efficacy before the package is even opened. Stated CFU counts often diverge from reality due to manufacturing and storage flaws.</p><p>BIOMA LAB was established to address this gap. We aren't experimenting with exotic blends; we take the gold standard for diarrhea management (<em>S. boulardii</em> + FOS) and guarantee its stability. Our mission is to provide the market with a tool professionals can trust with every prescription.</p>",
@@ -621,7 +621,7 @@ const I18N = {
     "home.reports.all":       "查看所有知识库资料 →",
 
     /* About */
-    "about.hero.title":       "源自兽医临床需求的肠道合生元",
+    "about.hero.title":       "基于兽医临床需求的动物健康产品",
     "about.hero.subtitle":    "布拉氏酵母菌 + FOS 黄金组合，稳定剂型。专为解决实际问题而生，拒绝无效堆料。",
     "about.b1.title":         "产品诞生背景",
     "about.b1.body":          "<p>在饲料添加剂领域，我们始终面临一个痛点：益生菌在开封前就已失活。由于生产和储运工艺缺陷，标示活菌数往往与实际不符。</p><p>BIOMA LAB 正是为解决这一问题而创立。我们不盲目追求新奇概念，而是聚焦腹泻管理的黄金标准（布拉氏酵母菌 + FOS），并确保其稳定性。我们的目标是为市场提供一款每次处方都值得信赖的专业工具。</p>",
