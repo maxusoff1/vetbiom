@@ -55,7 +55,7 @@ const CONFIG = {
   wechat_display:    'Project Manager',
   whatsapp_number:   '',                            // заполните, например: '79991234567'
   whatsapp_display:  '',                            // как показывать: '+7 999 123-45-67'
-  telegram_username: 'BiomaLabBot',                 // без @, например: 'vetbiom'
+  telegram_username: 'BiomaLab_bot',                 // без @, например: 'vetbiom'
 
   // Соцсети (опционально, оставьте пустыми если не используете)
   social_vk:        '',
@@ -472,7 +472,7 @@ const I18N = {
     "footer.legalBlock":      "Юридическая информация",
     "footer.contactBlock":    "Контакты",
     "footer.linksBlock":      "Разделы",
-    "footer.telegram":        "Telegram: @BiomaLabBot",
+    "footer.telegram":        "Telegram: @BiomaLab_bot",
     "footer.copy":            "© 2026 ООО «БИОМА ЛАБ». Все права защищены."
   },
 
@@ -609,7 +609,7 @@ const I18N = {
     "footer.legalBlock":      "Legal information",
     "footer.contactBlock":    "Contacts",
     "footer.linksBlock":      "Sections",
-    "footer.telegram":        "Telegram: @BiomaLabBot",
+    "footer.telegram":        "Telegram: @BiomaLab_bot",
     "footer.copy":            "© 2026 BIOMA LAB LLC. All rights reserved."
   },
 
@@ -746,7 +746,7 @@ const I18N = {
     "footer.legalBlock":      "法律信息",
     "footer.contactBlock":    "联系方式",
     "footer.linksBlock":      "栏目",
-    "footer.telegram":        "Telegram: @BiomaLabBot",
+    "footer.telegram":        "Telegram: @BiomaLab_bot",
     "footer.copy":            "© 2026 BIOMA LAB LLC. 版权所有。"
   }
 };

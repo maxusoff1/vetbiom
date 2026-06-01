@@ -177,7 +177,7 @@ function renderFooter() {
         <a href="#" data-link="email-info" data-config="email_info">info@vetbiom.ru</a>
         <a href="#" data-link="email-suppliers" data-config="email_suppliers">suppliers@vetbiom.ru</a>
         <a href="#" data-link="wechat">WeChat: <span data-config="wechat_display">—</span></a>
-        <a href="#" data-link="telegram" data-i18n="footer.telegram">Telegram: @BiomaLabBot</a>
+        <a href="#" data-link="telegram" data-i18n="footer.telegram">Telegram: @BiomaLab_bot</a>
       </div>
 
       <div class="footer-col footer-col-wide">
