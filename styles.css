@@ -833,6 +833,142 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* =====================================================
+   APPLICATION CARDS (home)
+   ===================================================== */
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+.app-card {
+  display: flex; flex-direction: column;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 32px;
+  transition: all .3s var(--ease);
+}
+.app-card:hover { border-color: var(--sage); transform: translateY(-2px); }
+.app-icon {
+  width: 44px; height: 44px;
+  border-radius: 12px;
+  background: var(--cream);
+  border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--forest);
+  margin-bottom: 20px;
+}
+.app-card h3 {
+  font-family: var(--font-display);
+  font-weight: 400; font-size: 22px;
+  color: var(--forest); margin: 0 0 12px;
+  line-height: 1.25;
+}
+.app-card p {
+  font-size: 14px; line-height: 1.55;
+  color: var(--ink-2); margin: 0;
+  flex: 1;
+}
+
+/* =====================================================
+   TEXT BLOCKS (home — approach, R&D, partnership)
+   ===================================================== */
+.approach-body,
+.rd-body {
+  margin-top: 30px;
+}
+.approach-body p,
+.rd-body p {
+  font-size: 17px; line-height: 1.7;
+  color: var(--ink-2); margin: 0 0 20px;
+}
+.approach-body ul,
+.rd-body ul {
+  list-style: none; padding: 0; margin: 0 0 24px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.approach-body li,
+.rd-body li {
+  padding: 16px 20px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  font-size: 15px; line-height: 1.55;
+  color: var(--ink-2);
+}
+.approach-body li strong,
+.rd-body li strong {
+  color: var(--forest); display: block;
+  margin-bottom: 4px;
+}
+
+/* =====================================================
+   PARTNERSHIP (home — dark section)
+   ===================================================== */
+.section-alt {
+  background: var(--cream);
+  padding: 80px 0;
+}
+.partnership-list {
+  margin-top: 30px;
+}
+.partnership-list p {
+  font-size: 17px; line-height: 1.7;
+  color: var(--sage-2); margin: 0 0 24px;
+}
+.partnership-list ul {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.partnership-list li {
+  padding: 16px 20px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(168,195,160,0.2);
+  border-radius: var(--radius-sm);
+  font-size: 15px; line-height: 1.55;
+  color: var(--sage-2);
+}
+.partnership-list li strong {
+  color: var(--cream); display: block;
+  margin-bottom: 2px;
+}
+.partnership-cta {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  margin-top: 40px;
+}
+.btn-light-outline {
+  background: transparent;
+  color: var(--cream);
+  border-color: var(--cream);
+}
+.btn-light-outline:hover {
+  background: var(--cream);
+  color: var(--forest);
+}
+
+/* =====================================================
+   LEGAL INFO (home)
+   ===================================================== */
+.legal-info {
+  margin-top: 20px;
+}
+.legal-name {
+  font-family: var(--font-display);
+  font-weight: 400; font-size: 24px;
+  color: var(--forest);
+  margin: 0 0 8px;
+}
+.legal-row {
+  font-size: 15px; color: var(--ink-2);
+  margin: 0; padding: 6px 0;
+}
+.legal-city {
+  font-size: 14px; color: var(--ink-3);
+  margin-top: 4px;
+}
+
+/* =====================================================
    SCROLL REVEAL
    ===================================================== */
 [data-reveal] {
@@ -929,7 +1065,17 @@ a { color: inherit; text-decoration: none; }
   .urgent-card-light { padding: 24px; }
   .urgent-items-list li { font-size: 15px; }
 
-  .legal-info { margin-top: 12px; }
+  .app-grid { grid-template-columns: 1fr; }
+  .app-card { padding: 24px; }
+  .app-card h3 { font-size: 20px; }
+
+  .approach-body p, .rd-body p { font-size: 15px; }
+  .approach-body li, .rd-body li { font-size: 14px; padding: 14px 16px; }
+
+  .partnership-list p { font-size: 15px; }
+  .partnership-list li { font-size: 14px; padding: 14px 16px; }
+  .partnership-cta { flex-direction: column; }
+  .partnership-cta .btn { width: 100%; justify-content: center; }
   .legal-name { font-size: 16px; }
   .legal-row { font-size: 12px; padding: 3px 0; }
   .legal-city { font-size: 13px; }
