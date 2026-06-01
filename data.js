@@ -451,7 +451,7 @@ const I18N = {
     "form.note":              "Отвечаем в течение 1–2 рабочих дней.",
 
     /* Footer */
-    "footer.about":           "BIOMA LAB — R&D-компания в области ветеринарных синбиотиков. Сайт — часть нашей работы: мы документируем процесс разработки, чтобы партнёры и ветеринары видели, как формируется продукт.",
+    "footer.about":           "BIOMA LAB — R&D-компания в области ветеринарных синбиотиков.",
     "footer.legalBlock":      "Юридическая информация",
     "footer.contactBlock":    "Контакты",
     "footer.linksBlock":      "Разделы",
@@ -571,7 +571,7 @@ const I18N = {
     "form.note":              "We respond within 1–2 business days.",
 
     /* Footer */
-    "footer.about":           "BIOMA LAB — R&D company in veterinary synbiotics. The website is part of our work: we document the development process so that partners and veterinarians can see how the product takes shape.",
+    "footer.about":           "BIOMA LAB — R&D company in veterinary synbiotics.",
     "footer.legalBlock":      "Legal information",
     "footer.contactBlock":    "Contacts",
     "footer.linksBlock":      "Sections",
@@ -691,7 +691,7 @@ const I18N = {
     "form.note":              "我们将在 1–2 个工作日内回复。",
 
     /* Footer */
-    "footer.about":           "BIOMA LAB — 兽用合生元领域的研发公司。本网站是我们工作的一部分:我们记录研发过程,让合作伙伴和兽医看到产品是如何成型的。",
+    "footer.about":           "BIOMA LAB — 兽用合生元领域的研发公司。",
     "footer.legalBlock":      "法律信息",
     "footer.contactBlock":    "联系方式",
     "footer.linksBlock":      "栏目",
