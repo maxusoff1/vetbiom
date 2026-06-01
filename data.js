@@ -111,227 +111,228 @@ const REPORTS = [
 ];
 
 /* === 4. ARTICLES_INDEX: индекс статей базы знаний ===
-   Каждой статье соответствует файл в папке articles/[slug].md
+   Каждой статье соответствует файл в папке articles/[slug].md (RU)
+   articles/[slug].en.md (EN), articles/[slug].zh.md (ZH)
    Чтобы добавить новую статью:
-     1. Положите [slug].md в articles/
+     1. Положите [slug].md, [slug].en.md, [slug].zh.md в articles/
      2. Добавьте запись в этот массив
 */
 const ARTICLES_INDEX = [
   {
     slug: '01-polza-s-boulardii',
-    title: 'В чём польза Saccharomyces boulardii для животных',
-    description: 'Механизмы действия пробиотических дрожжей, применение при диарее, антибиотикотерапии и стрессовых состояниях у животных-компаньонов.',
-    category: 'Основы',
+    title: { ru: 'В чём польза Saccharomyces boulardii для животных', en: 'Benefits of Saccharomyces boulardii for Animals', zh: 'Saccharomyces boulardii 对动物的益处' },
+    description: { ru: 'Механизмы действия пробиотических дрожжей, применение при диарее, антибиотикотерапии и стрессовых состояниях у животных-компаньонов.', en: 'Mechanisms of action of probiotic yeast, use in diarrhea, antibiotic therapy, and stress conditions in companion animals.', zh: '益生酵母的作用机制，以及在伴侣动物的腹泻、抗生素治疗和应激状态下的应用。' },
+    category: { ru: 'Основы', en: 'Basics', zh: '基础' },
     date: '2026-06-01',
-    reading_time: 5,
-    tags: ['s.boulardii', 'обзор', 'механизм']
+    reading_time: { ru: 5, en: 5, zh: 5 },
+    tags: { ru: ['s.boulardii', 'обзор', 'механизм'], en: ['s.boulardii', 'overview', 'mechanism'], zh: ['布拉氏酵母', '综述', '机制'] }
   },
   {
     slug: '02-s-boulardii-diareya-koshek',
-    title: 'S. boulardii при диарее у кошек',
-    description: 'Применение пробиотических дрожжей у кошек: дозировки, длительность курса, особенности при разных типах диареи.',
-    category: 'Кошки',
+    title: { ru: 'S. boulardii при диарее у кошек', en: 'S. boulardii for Diarrhea in Cats', zh: 'S. boulardii 用于猫腹泻' },
+    description: { ru: 'Применение пробиотических дрожжей у кошек: дозировки, длительность курса, особенности при разных типах диареи.', en: 'Use of probiotic yeast in cats: dosages, course duration, specifics for different types of diarrhea.', zh: '猫用益生酵母的使用方法：剂量、疗程、不同类型腹泻的注意事项。' },
+    category: { ru: 'Кошки', en: 'Cats', zh: '猫' },
     date: '2026-06-05',
-    reading_time: 4,
-    tags: ['кошки', 'диарея']
+    reading_time: { ru: 4, en: 4, zh: 4 },
+    tags: { ru: ['кошки', 'диарея'], en: ['cats', 'diarrhea'], zh: ['猫', '腹泻'] }
   },
   {
     slug: '03-diareya-koshek',
-    title: 'Диарея у кошек: классификация и подходы',
-    description: 'Причины диареи у кошек, классификация по продолжительности и тяжести, когда нужен ветеринарный осмотр.',
-    category: 'Кошки',
+    title: { ru: 'Диарея у кошек: классификация и подходы', en: 'Diarrhea in Cats: Classification and Approaches', zh: '猫腹泻：分类与处理方法' },
+    description: { ru: 'Причины диареи у кошек, классификация по продолжительности и тяжести, когда нужен ветеринарный осмотр.', en: 'Causes of diarrhea in cats, classification by duration and severity, when veterinary examination is needed.', zh: '猫腹泻的原因、按持续时间和严重程度的分类、何时需要兽医检查。' },
+    category: { ru: 'Кошки', en: 'Cats', zh: '猫' },
     date: '2026-06-08',
-    reading_time: 6,
-    tags: ['кошки', 'диарея', 'клиника']
+    reading_time: { ru: 6, en: 6, zh: 6 },
+    tags: { ru: ['кошки', 'диарея', 'клиника'], en: ['cats', 'diarrhea', 'clinical'], zh: ['猫', '腹泻', '临床'] }
   },
   {
     slug: '04-s-boulardii-diareya-sobak',
-    title: 'S. boulardii при диарее у собак',
-    description: 'Клинические данные по применению S. boulardii у собак с острой и хронической энтеропатией.',
-    category: 'Собаки',
+    title: { ru: 'S. boulardii при диарее у собак', en: 'S. boulardii for Diarrhea in Dogs', zh: 'S. boulardii 用于狗腹泻' },
+    description: { ru: 'Клинические данные по применению S. boulardii у собак с острой и хронической энтеропатией.', en: 'Clinical data on S. boulardii use in dogs with acute and chronic enteropathy.', zh: 'S. boulardii 用于急性和慢性肠病犬的临床数据。' },
+    category: { ru: 'Собаки', en: 'Dogs', zh: '狗' },
     date: '2026-06-12',
-    reading_time: 7,
-    tags: ['собаки', 'диарея']
+    reading_time: { ru: 7, en: 7, zh: 7 },
+    tags: { ru: ['собаки', 'диарея'], en: ['dogs', 'diarrhea'], zh: ['狗', '腹泻'] }
   },
   {
     slug: '05-s-boulardii-antibiotiki',
-    title: 'Почему S. boulardii дают вместе с антибиотиками',
-    description: 'Дрожжевая природа S. boulardii обеспечивает устойчивость к антибиотикам — это основа стратегии профилактики антибиотик-ассоциированной диареи.',
-    category: 'Антибиотики',
+    title: { ru: 'Почему S. boulardii дают вместе с антибиотиками', en: 'Why S. boulardii Is Given with Antibiotics', zh: '为什么 S. boulardii 与抗生素一起使用' },
+    description: { ru: 'Дрожжевая природа S. boulardii обеспечивает устойчивость к антибиотикам — это основа стратегии профилактики антибиотик-ассоциированной диареи.', en: 'The yeast nature of S. boulardii provides antibiotic resistance — the foundation of preventing antibiotic-associated diarrhea.', zh: 'S. boulardii 的酵母特性使其具有抗生素耐药性——这是预防抗生素相关性腹泻的基础策略。' },
+    category: { ru: 'Антибиотики', en: 'Antibiotics', zh: '抗生素' },
     date: '2026-06-15',
-    reading_time: 6,
-    tags: ['антибиотики', 'AAD']
+    reading_time: { ru: 6, en: 6, zh: 6 },
+    tags: { ru: ['антибиотики', 'AAD'], en: ['antibiotics', 'AAD'], zh: ['抗生素', 'AAD'] }
   },
   {
     slug: '06-enterol-ne-vyhod',
-    title: 'Энтерол — не выход для животных: что не так с человеческим препаратом',
-    description: 'Почему адаптация человеческих препаратов S. boulardii для животных — компромисс по дозировке, форме и составу.',
-    category: 'Сравнение',
+    title: { ru: 'Энтерол — не выход для животных: что не так с человеческим препаратом', en: 'Enterol Is Not the Answer for Animals: What\'s Wrong with Human Products', zh: 'Enterol 并非动物之选：人用制剂的问题所在' },
+    description: { ru: 'Почему адаптация человеческих препаратов S. boulardii для животных — компромисс по дозировке, форме и составу.', en: 'Why adapting human S. boulardii products for animals is a compromise in dosage, form, and composition.', zh: '为什么将人用 S. boulardii 制剂用于动物在剂量、剂型和成分上都是妥协。' },
+    category: { ru: 'Сравнение', en: 'Comparison', zh: '比较' },
     date: '2026-06-18',
-    reading_time: 5,
-    tags: ['энтерол', 'сравнение']
+    reading_time: { ru: 5, en: 5, zh: 5 },
+    tags: { ru: ['энтерол', 'сравнение'], en: ['enterol', 'comparison'], zh: ['Enterol', '比较'] }
   },
   {
     slug: '07-veterinarnyj-vs-chelovecheskij',
-    title: 'Почему для животных лучше ветеринарный S. boulardii',
-    description: 'Преимущества формы и состава, разработанных под видоспецифичные потребности кошек и собак.',
-    category: 'Сравнение',
+    title: { ru: 'Почему для животных лучше ветеринарный S. boulardii', en: 'Why Veterinary S. boulardii Is Better for Animals', zh: '为什么兽用 S. boulardii 更适合动物' },
+    description: { ru: 'Преимущества формы и состава, разработанных под видоспецифичные потребности кошек и собак.', en: 'Advantages of formulations designed for the species-specific needs of cats and dogs.', zh: '针对猫狗物种特异性需求设计的剂型和成分优势。' },
+    category: { ru: 'Сравнение', en: 'Comparison', zh: '比较' },
     date: '2026-06-20',
-    reading_time: 4,
-    tags: ['ветеринарная форма']
+    reading_time: { ru: 4, en: 4, zh: 4 },
+    tags: { ru: ['ветеринарная форма'], en: ['veterinary form'], zh: ['兽用剂型'] }
   },
   {
     slug: '08-sashe-vs-kapsuly',
-    title: 'Почему саше удобнее капсул для кошек и собак',
-    description: 'Анализ форматов выпуска: точность дозирования, гигиена, совместимость с кормом, удобство для владельца.',
-    category: 'Форматы',
+    title: { ru: 'Почему саше удобнее капсул для кошек и собак', en: 'Why Sachets Are More Convenient Than Capsules for Cats and Dogs', zh: '为什么小袋比胶囊更适合猫狗' },
+    description: { ru: 'Анализ форматов выпуска: точность дозирования, гигиена, совместимость с кормом, удобство для владельца.', en: 'Analysis of product formats: dosing accuracy, hygiene, compatibility with food, owner convenience.', zh: '产品形态分析：剂量精确度、卫生性、与食物的兼容性、主人便利性。' },
+    category: { ru: 'Форматы', en: 'Formats', zh: '剂型' },
     date: '2026-06-22',
-    reading_time: 5,
-    tags: ['саше', 'формат']
+    reading_time: { ru: 5, en: 5, zh: 5 },
+    tags: { ru: ['саше', 'формат'], en: ['sachet', 'format'], zh: ['小袋', '剂型'] }
   },
   {
     slug: '09-dozirovka-po-vesu',
-    title: 'Как дозировать S. boulardii по весу животного',
-    description: 'Таблицы доз для кошек и собак разных весовых категорий с привязкой к КОЕ/кг массы тела.',
-    category: 'Дозирование',
+    title: { ru: 'Как дозировать S. boulardii по весу животного', en: 'How to Dose S. boulardii by Animal Weight', zh: '如何按动物体重计算 S. boulardii 剂量' },
+    description: { ru: 'Таблицы доз для кошек и собак разных весовых категорий с привязкой к КОЕ/кг массы тела.', en: 'Dose tables for cats and dogs of different weight categories based on CFU/kg body weight.', zh: '基于 CFU/kg 体重的不同体重猫狗剂量表。' },
+    category: { ru: 'Дозирование', en: 'Dosing', zh: '剂量' },
     date: '2026-06-25',
-    reading_time: 7,
-    tags: ['дозировка', 'кошки', 'собаки']
+    reading_time: { ru: 7, en: 7, zh: 7 },
+    tags: { ru: ['дозировка', 'кошки', 'собаки'], en: ['dosing', 'cats', 'dogs'], zh: ['剂量', '猫', '狗'] }
   },
   {
     slug: '10-s-boulardii-fos',
-    title: 'S. boulardii + FOS: зачем нужна комбинация',
-    description: 'Синбиотический принцип: как ФОС служит селективным субстратом и усиливает эффект пробиотика.',
-    category: 'Синбиотик',
+    title: { ru: 'S. boulardii + FOS: зачем нужна комбинация', en: 'S. boulardii + FOS: Why the Combination Matters', zh: 'S. boulardii + FOS：为何需要这种组合' },
+    description: { ru: 'Синбиотический принцип: как ФОС служит селективным субстратом и усиливает эффект пробиотика.', en: 'The synbiotic principle: how FOS serves as a selective substrate and enhances the probiotic effect.', zh: '合生元原理：FOS 如何作为选择性底物增强益生菌效果。' },
+    category: { ru: 'Синбиотик', en: 'Synbiotic', zh: '合生元' },
     date: '2026-06-28',
-    reading_time: 8,
-    tags: ['ФОС', 'синбиотик']
+    reading_time: { ru: 8, en: 8, zh: 8 },
+    tags: { ru: ['ФОС', 'синбиотик'], en: ['FOS', 'synbiotic'], zh: ['FOS', '合生元'] }
   },
   {
     slug: '11-smena-korma',
-    title: 'S. boulardii при смене корма',
-    description: 'Поддержка кишечника в период адаптации к новому рациону — схема применения и ожидаемые эффекты.',
-    category: 'Питание',
+    title: { ru: 'S. boulardii при смене корма', en: 'S. boulardii During Diet Changes', zh: 'S. boulardii 在换粮期间的使用' },
+    description: { ru: 'Поддержка кишечника в период адаптации к новому рациону — схема применения и ожидаемые эффекты.', en: 'Gut support during adaptation to a new diet — dosing schedule and expected effects.', zh: '适应新日粮期间的肠道支持——使用方案和预期效果。' },
+    category: { ru: 'Питание', en: 'Nutrition', zh: '营养' },
     date: '2026-07-01',
-    reading_time: 6,
-    tags: ['смена корма']
+    reading_time: { ru: 6, en: 6, zh: 6 },
+    tags: { ru: ['смена корма'], en: ['diet change'], zh: ['换粮'] }
   },
   {
     slug: '12-stressovaya-diareya',
-    title: 'S. boulardii при стрессовой диарее',
-    description: 'Транспортировка, переезд, новые условия — применение пробиотика для коррекции стресс-индуцированных нарушений.',
-    category: 'Стресс',
+    title: { ru: 'S. boulardii при стрессовой диарее', en: 'S. boulardii for Stress-Induced Diarrhea', zh: 'S. boulardii 用于应激性腹泻' },
+    description: { ru: 'Транспортировка, переезд, новые условия — применение пробиотика для коррекции стресс-индуцированных нарушений.', en: 'Transport, relocation, new environments — probiotic use for managing stress-induced GI disturbances.', zh: '运输、搬迁、新环境——益生菌用于管理应激引起的胃肠道紊乱。' },
+    category: { ru: 'Стресс', en: 'Stress', zh: '应激' },
     date: '2026-07-04',
-    reading_time: 6,
-    tags: ['стресс']
+    reading_time: { ru: 6, en: 6, zh: 6 },
+    tags: { ru: ['стресс'], en: ['stress'], zh: ['应激'] }
   },
   {
     slug: '13-kishechnyj-barjer',
-    title: 'Как S. boulardii поддерживает кишечный барьер',
-    description: 'Механизмы укрепления плотных контактов, продукция бутирата, защита от транслокации патогенов.',
-    category: 'Механизмы',
+    title: { ru: 'Как S. boulardii поддерживает кишечный барьер', en: 'How S. boulardii Supports the Intestinal Barrier', zh: 'S. boulardii 如何支持肠道屏障' },
+    description: { ru: 'Механизмы укрепления плотных контактов, продукция бутирата, защита от транслокации патогенов.', en: 'Mechanisms of tight junction reinforcement, butyrate production, protection against pathogen translocation.', zh: '紧密连接的强化机制、丁酸盐产生、防止病原体易位。' },
+    category: { ru: 'Механизмы', en: 'Mechanisms', zh: '机制' },
     date: '2026-07-07',
-    reading_time: 8,
-    tags: ['кишечный барьер', 'механизм']
+    reading_time: { ru: 8, en: 8, zh: 8 },
+    tags: { ru: ['кишечный барьер', 'механизм'], en: ['intestinal barrier', 'mechanism'], zh: ['肠道屏障', '机制'] }
   },
   {
     slug: '14-otlichie-ot-bakterial',
-    title: 'Чем S. boulardii отличается от бактериальных пробиотиков',
-    description: 'Дрожжевая природа: устойчивость к антибиотикам, температуре, желудочной кислоте — ключевые отличия.',
-    category: 'Сравнение',
+    title: { ru: 'Чем S. boulardii отличается от бактериальных пробиотиков', en: 'How S. boulardii Differs from Bacterial Probiotics', zh: 'S. boulardii 与细菌益生菌的区别' },
+    description: { ru: 'Дрожжевая природа: устойчивость к антибиотикам, температуре, желудочной кислоте — ключевые отличия.', en: 'Yeast nature: antibiotic resistance, temperature tolerance, stomach acid resistance — key differences.', zh: '酵母特性：抗生素耐药性、耐温性、耐胃酸性——关键区别。' },
+    category: { ru: 'Сравнение', en: 'Comparison', zh: '比较' },
     date: '2026-07-10',
-    reading_time: 6,
-    tags: ['сравнение', 'дрожжи']
+    reading_time: { ru: 6, en: 6, zh: 6 },
+    tags: { ru: ['сравнение', 'дрожжи'], en: ['comparison', 'yeast'], zh: ['比较', '酵母'] }
   },
   {
     slug: '15-kotyata-schenki',
-    title: 'S. boulardii у котят и щенков',
-    description: 'Особенности применения у молодых животных с формирующимся микробиомом, скорректированные дозы.',
-    category: 'Котята / щенки',
+    title: { ru: 'S. boulardii у котят и щенков', en: 'S. boulardii for Kittens and Puppies', zh: 'S. boulardii 用于幼猫和幼犬' },
+    description: { ru: 'Особенности применения у молодых животных с формирующимся микробиомом, скорректированные дозы.', en: 'Special considerations for young animals with developing microbiomes, adjusted dosages.', zh: '针对微生物群正在形成的幼年动物的特殊考虑和调整剂量。' },
+    category: { ru: 'Котята / щенки', en: 'Kittens / Puppies', zh: '幼猫 / 幼犬' },
     date: '2026-07-13',
-    reading_time: 5,
-    tags: ['котята', 'щенки']
+    reading_time: { ru: 5, en: 5, zh: 5 },
+    tags: { ru: ['котята', 'щенки'], en: ['kittens', 'puppies'], zh: ['幼猫', '幼犬'] }
   },
   {
     slug: '16-pozhilye',
-    title: 'S. boulardii у пожилых животных',
-    description: 'Поддержка ЖКТ при возрастных изменениях микробиома, хронических заболеваниях и сниженном иммунитете.',
-    category: 'Гериатрия',
+    title: { ru: 'S. boulardii у пожилых животных', en: 'S. boulardii for Senior Animals', zh: 'S. boulardii 用于老年动物' },
+    description: { ru: 'Поддержка ЖКТ при возрастных изменениях микробиома, хронических заболеваниях и сниженном иммунитете.', en: 'GI support during age-related microbiome changes, chronic conditions, and reduced immunity.', zh: '在与年龄相关的微生物组变化、慢性疾病和免疫力下降期间的胃肠道支持。' },
+    category: { ru: 'Гериатрия', en: 'Geriatrics', zh: '老年医学' },
     date: '2026-07-16',
-    reading_time: 6,
-    tags: ['пожилые']
+    reading_time: { ru: 6, en: 6, zh: 6 },
+    tags: { ru: ['пожилые'], en: ['senior'], zh: ['老年'] }
   },
   {
     slug: '17-ne-zamena-veterinara',
-    title: 'Когда S. boulardii не заменяет ветеринара',
-    description: 'Тревожные симптомы и клинические ситуации, при которых пробиотик не достаточен и требуется ветеринарная помощь.',
-    category: 'Безопасность',
+    title: { ru: 'Когда S. boulardii не заменяет ветеринара', en: 'When S. boulardii Does Not Replace a Veterinarian', zh: '何时 S. boulardii 不能替代兽医' },
+    description: { ru: 'Тревожные симптомы и клинические ситуации, при которых пробиотик не достаточен и требуется ветеринарная помощь.', en: 'Warning signs and clinical situations where a probiotic alone is insufficient and veterinary care is required.', zh: '仅靠益生菌不足、需要兽医护理的警示信号和临床情况。' },
+    category: { ru: 'Безопасность', en: 'Safety', zh: '安全' },
     date: '2026-07-19',
-    reading_time: 4,
-    tags: ['безопасность', 'тревожные симптомы']
+    reading_time: { ru: 4, en: 4, zh: 4 },
+    tags: { ru: ['безопасность', 'тревожные симптомы'], en: ['safety', 'warning signs'], zh: ['安全', '警示信号'] }
   },
   {
     slug: '18-kak-ponyat-pomogaet',
-    title: 'Как понять, что S. boulardii помогает',
-    description: 'Объективные критерии эффективности: консистенция стула, частота, аппетит, активность животного.',
-    category: 'Оценка эффекта',
+    title: { ru: 'Как понять, что S. boulardii помогает', en: 'How to Tell S. boulardii Is Working', zh: '如何判断 S. boulardii 是否有效' },
+    description: { ru: 'Объективные критерии эффективности: консистенция стула, частота, аппетит, активность животного.', en: 'Objective effectiveness criteria: stool consistency, frequency, appetite, animal activity.', zh: '客观有效性标准：粪便稠度、频率、食欲、动物活动水平。' },
+    category: { ru: 'Оценка эффекта', en: 'Effect Assessment', zh: '效果评估' },
     date: '2026-07-22',
-    reading_time: 7,
-    tags: ['эффективность']
+    reading_time: { ru: 7, en: 7, zh: 7 },
+    tags: { ru: ['эффективность'], en: ['effectiveness'], zh: ['效果'] }
   },
   {
     slug: '19-s-sorbentami',
-    title: 'Можно ли давать S. boulardii вместе с сорбентами',
-    description: 'Совместимость с активированным углём, смектитом и другими сорбентами — интервалы и схема приёма.',
-    category: 'Совместимость',
+    title: { ru: 'Можно ли давать S. boulardii вместе с сорбентами', en: 'Can S. boulardii Be Given with Adsorbents', zh: 'S. boulardii 能否与吸附剂一起使用' },
+    description: { ru: 'Совместимость с активированным углём, смектитом и другими сорбентами — интервалы и схема приёма.', en: 'Compatibility with activated charcoal, smectite, and other adsorbents — intervals and dosing schedule.', zh: '与活性炭、蒙脱石及其他吸附剂的兼容性——间隔时间和服用方案。' },
+    category: { ru: 'Совместимость', en: 'Compatibility', zh: '兼容性' },
     date: '2026-07-25',
-    reading_time: 10,
-    tags: ['сорбенты', 'совместимость']
+    reading_time: { ru: 10, en: 10, zh: 10 },
+    tags: { ru: ['сорбенты', 'совместимость'], en: ['adsorbents', 'compatibility'], zh: ['吸附剂', '兼容性'] }
   },
   {
     slug: '20-posle-antibiotikov',
-    title: 'S. boulardii при восстановлении после антибиотиков',
-    description: 'Протокол поддержки микробиоты в постантибиотический период: длительность, дозы, ожидаемые сроки восстановления.',
-    category: 'Восстановление',
+    title: { ru: 'S. boulardii при восстановлении после антибиотиков', en: 'S. boulardii for Recovery After Antibiotics', zh: 'S. boulardii 用于抗生素后恢复' },
+    description: { ru: 'Протокол поддержки микробиоты в постантибиотический период: длительность, дозы, ожидаемые сроки восстановления.', en: 'Microbiota support protocol in the post-antibiotic period: duration, dosages, expected recovery timeline.', zh: '抗生素后时期的微生物群支持方案：持续时间、剂量、预期恢复时间。' },
+    category: { ru: 'Восстановление', en: 'Recovery', zh: '恢复' },
     date: '2026-07-28',
-    reading_time: 6,
-    tags: ['восстановление', 'антибиотики']
+    reading_time: { ru: 6, en: 6, zh: 6 },
+    tags: { ru: ['восстановление', 'антибиотики'], en: ['recovery', 'antibiotics'], zh: ['恢复', '抗生素'] }
   },
   {
     slug: '21-kak-vybrat',
-    title: 'Как выбрать S. boulardii для кошек и собак',
-    description: 'Что смотреть на упаковке: штамм, активность, форма, состав, регистрационный статус, доказательная база.',
-    category: 'Выбор',
+    title: { ru: 'Как выбрать S. boulardii для кошек и собак', en: 'How to Choose S. boulardii for Cats and Dogs', zh: '如何为猫狗选择 S. boulardii' },
+    description: { ru: 'Что смотреть на упаковке: штамм, активность, форма, состав, регистрационный статус, доказательная база.', en: 'What to look for on the label: strain, potency, form, composition, registration status, evidence base.', zh: '包装上应查看的内容：菌株、效力、剂型、成分、注册状态、证据基础。' },
+    category: { ru: 'Выбор', en: 'Selection', zh: '选择' },
     date: '2026-07-31',
-    reading_time: 4,
-    tags: ['выбор', 'упаковка']
+    reading_time: { ru: 4, en: 4, zh: 4 },
+    tags: { ru: ['выбор', 'упаковка'], en: ['selection', 'label'], zh: ['选择', '包装'] }
   },
   {
     slug: '22-chastye-oshibki',
-    title: 'Частые ошибки при даче S. boulardii животным',
-    description: 'Типичные ошибки владельцев и ветеринаров: смешивание с горячей пищей, нарушение схемы, неподходящая форма.',
-    category: 'Практика',
+    title: { ru: 'Частые ошибки при даче S. boulardii животным', en: 'Common Mistakes When Giving S. boulardii to Animals', zh: '给动物使用 S. boulardii 的常见错误' },
+    description: { ru: 'Типичные ошибки владельцев и ветеринаров: смешивание с горячей пищей, нарушение схемы, неподходящая форма.', en: 'Typical owner and veterinarian mistakes: mixing with hot food, schedule violations, wrong form.', zh: '宠物主人和兽医的典型错误：与热食混合、方案违规、剂型不当。' },
+    category: { ru: 'Практика', en: 'Practice', zh: '实践' },
     date: '2026-08-03',
-    reading_time: 4,
-    tags: ['ошибки', 'практика']
+    reading_time: { ru: 4, en: 4, zh: 4 },
+    tags: { ru: ['ошибки', 'практика'], en: ['mistakes', 'practice'], zh: ['错误', '实践'] }
   },
   {
     slug: '23-faq',
-    title: 'FAQ: популярные вопросы о S. boulardii для животных',
-    description: 'Ответы на 20 наиболее частых вопросов владельцев и ветеринаров о применении S. boulardii.',
-    category: 'FAQ',
+    title: { ru: 'FAQ: популярные вопросы о S. boulardii для животных', en: 'FAQ: Popular Questions About S. boulardii for Animals', zh: 'FAQ：关于 S. boulardii 用于动物的常见问题' },
+    description: { ru: 'Ответы на 20 наиболее частых вопросов владельцев и ветеринаров о применении S. boulardii.', en: 'Answers to the 20 most common questions from owners and veterinarians about S. boulardii use.', zh: '宠物主人和兽医关于 S. boulardii 使用最常见的 20 个问题解答。' },
+    category: { ru: 'FAQ', en: 'FAQ', zh: 'FAQ' },
     date: '2026-08-06',
-    reading_time: 8,
-    tags: ['FAQ']
+    reading_time: { ru: 8, en: 8, zh: 8 },
+    tags: { ru: ['FAQ'], en: ['FAQ'], zh: ['常见问题'] }
   },
   {
     slug: '24-poslebioticheskij-effect',
-    title: 'S. boulardii: постбиотические эффекты',
-    description: 'Метаболиты и пептиды S. boulardii, обладающие самостоятельной активностью даже без живых клеток.',
-    category: 'Механизмы',
+    title: { ru: 'S. boulardii: постбиотические эффекты', en: 'S. boulardii: Postbiotic Effects', zh: 'S. boulardii：后生元效应' },
+    description: { ru: 'Метаболиты и пептиды S. boulardii, обладающие самостоятельной активностью даже без живых клеток.', en: 'S. boulardii metabolites and peptides with independent activity even without living cells.', zh: 'S. boulardii 的代谢物和肽类，即使没有活细胞也具有独立活性。' },
+    category: { ru: 'Механизмы', en: 'Mechanisms', zh: '机制' },
     date: '2026-08-09',
-    reading_time: 3,
-    tags: ['постбиотик', 'механизм']
+    reading_time: { ru: 3, en: 3, zh: 3 },
+    tags: { ru: ['постбиотик', 'механизм'], en: ['postbiotic', 'mechanism'], zh: ['后生元', '机制'] }
   }
 ];
 

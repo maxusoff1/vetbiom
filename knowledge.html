@@ -55,7 +55,8 @@
   let currentFilter = 'all';
 
   function renderFilters(lang) {
-    const cats = ['all', ...new Set(ARTICLES_INDEX.map(a => a.category))];
+    const getCat = c => (typeof c === 'object' ? (c[lang] || c.ru || c.en) : c);
+    const cats = ['all', ...new Set(ARTICLES_INDEX.map(a => getCat(a.category)))];
     const el = document.getElementById('kbFilters');
     if (!el) return;
     el.innerHTML = cats.map(c => `
@@ -73,19 +74,21 @@
   }
 
   function renderArticles(lang) {
+    const getVal = v => (typeof v === 'object' ? (v[lang] || v.ru || v.en) : v);
+    const getCat = c => (typeof c === 'object' ? (c[lang] || c.ru || c.en) : c);
     const grid = document.getElementById('kbGrid');
     if (!grid) return;
     const items = currentFilter === 'all'
       ? ARTICLES_INDEX
-      : ARTICLES_INDEX.filter(a => a.category === currentFilter);
+      : ARTICLES_INDEX.filter(a => getCat(a.category) === currentFilter);
     grid.innerHTML = items.map(a => `
       <a href="article.html?slug=${a.slug}" class="kb-card" data-reveal>
         <div class="kb-card-meta">
-          <span class="kb-card-cat">${a.category}</span>
-          <span>${a.reading_time} ${tr('kb.readingTime', lang)}</span>
+          <span class="kb-card-cat">${getCat(a.category)}</span>
+          <span>${(typeof a.reading_time === 'object' ? a.reading_time[lang] || a.reading_time.ru : a.reading_time)} ${tr('kb.readingTime', lang)}</span>
         </div>
-        <h3>${a.title}</h3>
-        <p>${a.description}</p>
+        <h3>${getVal(a.title)}</h3>
+        <p>${getVal(a.description)}</p>
         <span class="kb-card-more" data-i18n-static>${tr('kb.readMore', lang)}</span>
       </a>
     `).join('');
