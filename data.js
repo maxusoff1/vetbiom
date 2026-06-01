@@ -358,16 +358,16 @@ const I18N = {
     "meta.desc.partners":      "Закупаем сырьё для ветеринарных синбиотиков: S. boulardii, FOS, бактериофаги. Требования, контакты для поставщиков.",
 
     /* Главная */
-    "home.hero.title":    "Продукты для животных, созданные по запросам практикующих ветеринаров",
-    "home.hero.subtitle": "Рабочая связка <em>S. boulardii</em> + ФОС в стабильной форме. Продукт, который решает задачи, а не занимает место на полке.",
-    "home.b1.title":      "Почему появился этот продукт",
-    "home.b1.body":       "<p>В работе с кормовыми добавками мы постоянно сталкиваемся с одной проблемой: пробиотики теряют эффективность еще до вскрытия упаковки. Заявленные КОЕ расходятся с реальностью из-за нарушений технологии производства и хранения.</p><p>BIOMA LAB создавался как ответ на этот запрос. Мы не экспериментируем с экзотическими составами, а берем золотой стандарт терапии диарей (<em>S. boulardii</em> + ФОС) и гарантируем его стабильность. Наша задача — дать рынку инструмент, в котором можно быть уверенным при каждом назначении.</p>",
-    "home.b2.title":      "Фокус на технологии, а не на маркетинге",
-    "home.b2.body":       "<p>Эффективность синбиотика определяется не только составом, но и сохранностью штамма. Мы выстроили производственную цепочку вокруг контроля критических параметров: активности воды (a<sub>w</sub>), совместимости пребиотика и барьерных свойств упаковки.</p><p>Результат — продукт, сохраняющий заявленные характеристики в течение всего срока годности при комнатной температуре. Это подтверждено внутренними протоколами стабильности, а не только сертификатами поставщиков сырья.</p>",
-    "home.b3.title":      "Прозрачность как стандарт работы",
-    "home.b3.body":       "<p>Мы работаем в профессиональном сегменте, где доверие строится на фактах.</p><ul><li><strong>Верифицируемые данные.</strong> Готовы предоставить результаты тестов на выживаемость штаммов по запросу.</li><li><strong>Честная коммуникация.</strong> Открыто обсуждаем технические нюансы и ограничения продукта.</li><li><strong>Развитие линейки.</strong> Текущая формула — база. На основе обратной связи от специалистов мы масштабируем ассортимент, включая разработку препаратов с бактериофагами.</li></ul>",
+    "home.hero.title":    "Ветеринарный синбиотик S. boulardii + FOS",
+    "home.hero.subtitle": "Дрожжевой пробиотик с защитой от нагрева, влаги и желудочного сока. Стабильность подтверждена протоколами — не только спецификацией. Работает даже на фоне антибиотиков.",
+    "home.b1.title":      "Флагманский продукт",
+    "home.b1.body":       "<p><strong>S. boulardii + FOS</strong> в форме саше 1 г. Дрожжевой пробиотик microencapsulated по своей природе — устойчив к антибиотикам, термостабилен, проходит транзитом через ЖКТ и сохраняет активность до конца срока годности.</p><p><strong>Преимущества:</strong> нейтрализует токсины патогенных бактерий, поддерживает целостность кишечного барьера, помогает сбалансировать микробиом.</p><p><strong>Применение:</strong> диарея при смене корма, стрессе, антибиотикотерапии у кошек и собак. Безопасен для котят и щенков.</p>",
+    "home.b2.title":      "Технология, а не маркетинг",
+    "home.b2.body":       "<p>Эффективность синбиотика определяется не только штаммом, но и сохранностью в упаковке. Мы выстроили производство вокруг трёх критических параметров:</p><ul><li><strong>Активность воды (a<sub>w</sub>)</strong> — удерживается в диапазоне 0,15–0,20, подавляя рост нежелательной микрофлоры.</li><li><strong>Совместимость компонентов</strong> — ФОС не влияет на жизнеспособность дрожжей.</li><li><strong>4-слойная барьерная упаковка с EVOH</strong> — защита от кислорода и влаги.</li></ul><p>Каждое решение обосновано данными. Результат подтверждён 24-месячной программой стабильности.</p>",
+    "home.b3.title":      "Экспертиза и прозрачность",
+    "home.b3.body":       "<p>BIOMA LAB — R&D-компания, основанная с одной задачей: дать рынку стабильный ветеринарный синбиотик с подтверждёнными характеристиками.</p><ul><li><strong>Research-backed.</strong> Выбор штамма, дозировка и форма опираются на научные данные (PubMed, PMC, ветеринарные обзоры 2023–2025).</li><li><strong>Верифицируемые данные.</strong> Протоколы стабильности и тесты выживаемости — по запросу.</li><li><strong>Честная коммуникация.</strong> Открыто обсуждаем технические нюансы и ограничения продукта.</li></ul>",
     "home.b4.title":      "Сотрудничество",
-    "home.b4.body":       "<p>BIOMA LAB открыт для диалога с ветеринарными врачами, технологами и дистрибьюторами кормовых добавок. Мы ценим экспертизу коллег и строим долгосрочные партнерские отношения.</p><p>Свяжитесь с нами, чтобы обсудить технические детали продукта или возможности сотрудничества.</p>",
+    "home.b4.body":       "<p>Открыты для диалога с ветеринарными врачами, технологами и дистрибьюторами кормовых добавок. Строим долгосрочные партнёрские отношения.</p><p><a href=\"partners.html\" class=\"btn btn-primary btn-sm\">Связаться →</a></p>",
 
     /* О компании */
     "about.hero.title":       "Продукты для животных, созданные по запросам практикующих ветеринаров",
@@ -467,16 +467,16 @@ const I18N = {
     "meta.desc.partners":      "We source raw materials for veterinary synbiotics: S. boulardii, FOS, bacteriophages. Requirements and contacts for suppliers.",
 
     /* Home */
-    "home.hero.title":    "Animal Health Products Built on Veterinary Feedback",
-    "home.hero.subtitle": "Proven <em>S. boulardii</em> + FOS formula in a stable format. A product designed to solve clinical problems, not just fill shelf space.",
-    "home.b1.title":      "Why This Product Exists",
-    "home.b1.body":       "<p>In the feed supplement industry, we consistently encounter one issue: probiotics lose efficacy before the package is even opened. Stated CFU counts often diverge from reality due to manufacturing and storage flaws.</p><p>BIOMA LAB was established to address this gap. We aren't experimenting with exotic blends; we take the gold standard for diarrhea management (<em>S. boulardii</em> + FOS) and guarantee its stability. Our mission is to provide the market with a tool professionals can trust with every prescription.</p>",
-    "home.b2.title":      "Technology Over Marketing",
-    "home.b2.body":       "<p>A synbiotic's effectiveness depends as much on strain viability as on its formula. We've built our production chain around controlling critical parameters: water activity (a<sub>w</sub>), prebiotic compatibility, and packaging barrier properties.</p><p>The result is a product that maintains its stated specifications throughout its shelf life at room temperature—verified by internal stability protocols, not just raw material certificates.</p>",
-    "home.b3.title":      "Transparency as Standard Practice",
-    "home.b3.body":       "<p>Operating in the professional segment means trust is built on facts.</p><ul><li><strong>Verifiable Data:</strong> Strain survival test results available upon request.</li><li><strong>Honest Communication:</strong> Open discussion of technical nuances and product limitations.</li><li><strong>Pipeline Development:</strong> Current formula is the foundation. Based on specialist feedback, we are expanding the line, including bacteriophage-based products.</li></ul>",
+    "home.hero.title":    "Veterinary Synbiotic S. boulardii + FOS",
+    "home.hero.subtitle": "A yeast probiotic protected from heat, moisture, and stomach acid. Stability verified by protocols — not just spec sheets. Works even alongside antibiotics.",
+    "home.b1.title":      "Flagship Product",
+    "home.b1.body":       "<p><strong>S. boulardii + FOS</strong> in 1 g sachet format. A yeast probiotic that is microencapsulated by nature — antibiotic-resistant, thermostable, transits the GI tract, and retains activity through end of shelf life.</p><p><strong>Benefits:</strong> neutralizes pathogenic bacterial toxins, supports healthy intestinal lining, helps balance the microbiome.</p><p><strong>Application:</strong> diarrhea from diet changes, stress, or antibiotic therapy in cats and dogs. Safe for kittens and puppies.</p>",
+    "home.b2.title":      "Technology, Not Marketing",
+    "home.b2.body":       "<p>A synbiotic's effectiveness depends as much on strain viability as on its formula. We built our production chain around three critical parameters:</p><ul><li><strong>Water activity (a<sub>w</sub>)</strong> — maintained at 0.15–0.20, suppressing unwanted microbial growth.</li><li><strong>Component compatibility</strong> — FOS does not affect yeast viability.</li><li><strong>4-layer EVOH barrier packaging</strong> — protection from oxygen and moisture.</li></ul><p>Every decision is data-driven. Results verified by a 24-month stability programme.</p>",
+    "home.b3.title":      "Expertise & Transparency",
+    "home.b3.body":       "<p>BIOMA LAB is an R&D company founded with one mission: deliver a stable veterinary synbiotic with verified specifications.</p><ul><li><strong>Research-backed.</strong> Strain selection, dosage, and format are grounded in scientific data (PubMed, PMC, 2023–2025 veterinary reviews).</li><li><strong>Verifiable data.</strong> Stability protocols and viability test results available upon request.</li><li><strong>Honest communication.</strong> Open discussion of technical nuances and product limitations.</li></ul>",
     "home.b4.title":      "Partnership",
-    "home.b4.body":       "<p>BIOMA LAB welcomes dialogue with veterinarians, technologists, and feed supplement distributors. We value peer expertise and build long-term partnerships.</p><p>Contact us to discuss technical specifications or collaboration opportunities.</p>",
+    "home.b4.body":       "<p>Open to dialogue with veterinarians, technologists, and feed supplement distributors. Building long-term partnerships.</p><p><a href=\"partners.html\" class=\"btn btn-primary btn-sm\">Contact us →</a></p>",
 
     /* About */
     "about.hero.title":       "Animal Health Products Built on Veterinary Feedback",
@@ -576,16 +576,16 @@ const I18N = {
     "meta.desc.partners":      "我们采购兽用合生元原料:S. boulardii、FOS、噬菌体。供应商要求与联系方式。",
 
     /* Home */
-    "home.hero.title":    "基于兽医临床需求的动物健康产品",
-    "home.hero.subtitle": "布拉氏酵母菌 + FOS 黄金组合，稳定剂型。专为解决实际问题而生，拒绝无效堆料。",
-    "home.b1.title":      "产品诞生背景",
-    "home.b1.body":       "<p>在饲料添加剂领域，我们始终面临一个痛点：益生菌在开封前就已失活。由于生产和储运工艺缺陷，标示活菌数往往与实际不符。</p><p>BIOMA LAB 正是为解决这一问题而创立。我们不盲目追求新奇概念，而是聚焦腹泻管理的黄金标准（布拉氏酵母菌 + FOS），并确保其稳定性。我们的目标是为市场提供一款每次处方都值得信赖的专业工具。</p>",
-    "home.b2.title":      "技术优先，拒绝营销噱头",
-    "home.b2.body":       "<p>合生元的功效不仅取决于配方，更取决于菌株存活率。我们围绕关键参数构建生产体系：严格控制水分活度 (a<sub>w</sub>)、益生元兼容性及包装阻隔性能。</p><p>最终产品可在室温下全程保持标示规格——这由内部稳定性验证协议支撑，而非仅依赖原料供应商证书。</p>",
-    "home.b3.title":      "透明化运营标准",
-    "home.b3.body":       "<p>深耕专业领域，信任源于事实。</p><ul><li><strong>数据可验证：</strong> 可根据要求提供菌株存活测试报告。</li><li><strong>坦诚沟通：</strong> 公开探讨技术细节与产品局限性。</li><li><strong>持续迭代：</strong> 现有配方为基础，结合专家反馈拓展产品线，包括噬菌体制剂研发。</li></ul>",
+    "home.hero.title":    "兽用合生元 S. boulardii + FOS",
+    "home.hero.subtitle": "耐热、耐湿、耐胃酸的酵母益生菌。稳定性经测试验证，而非仅凭规格说明。即使与抗生素同服也有效。",
+    "home.b1.title":      "旗舰产品",
+    "home.b1.body":       "<p><strong>S. boulardii + FOS</strong>，1 克小袋装。天然微囊化的酵母益生菌——耐抗生素、耐热，可通过胃肠道，在保质期内保持活性。</p><p><strong>优势：</strong> 中和病原菌毒素，维持肠道屏障完整，帮助平衡微生物组。</p><p><strong>适用：</strong> 猫狗因换粮、应激或抗生素治疗引起的腹泻。幼猫幼犬安全可用。</p>",
+    "home.b2.title":      "技术优先，而非营销",
+    "home.b2.body":       "<p>合生元的功效不仅取决于配方，更取决于菌株存活率。我们围绕三个关键参数构建了生产体系：</p><ul><li><strong>水分活度 (a<sub>w</sub>)</strong> — 维持 0.15–0.20，抑制不良微生物生长。</li><li><strong>组分兼容性</strong> — FOS 不影响酵母活力。</li><li><strong>4 层 EVOH 阻隔包装</strong> — 阻隔氧气和水分。</li></ul><p>每个决策基于数据。结果经 24 个月稳定性项目验证。</p>",
+    "home.b3.title":      "专业能力与透明度",
+    "home.b3.body":       "<p>BIOMA LAB — 一家研发公司，使命是为市场提供规格经验证的稳定兽用合生元。</p><ul><li><strong>研究驱动。</strong> 菌株选择、剂量和剂型基于科学数据（PubMed、PMC、2023–2025 兽医综述）。</li><li><strong>数据可验证。</strong> 可根据要求提供稳定性方案和活力测试结果。</li><li><strong>坦诚沟通。</strong> 公开讨论技术细节及产品局限性。</li></ul>",
     "home.b4.title":      "合作邀约",
-    "home.b4.body":       "<p>BIOMA LAB 诚邀兽医、技术人员及饲料添加剂经销商交流。我们尊重行业智慧，致力于建立长期伙伴关系。</p><p>欢迎联系我们，洽谈产品技术细节或合作事宜。</p>",
+    "home.b4.body":       "<p>诚邀兽医、技术人员及饲料添加剂经销商交流，建立长期伙伴关系。</p><p><a href=\"partners.html\" class=\"btn btn-primary btn-sm\">联系我们 →</a></p>",
 
     /* About */
     "about.hero.title":       "基于兽医临床需求的动物健康产品",
