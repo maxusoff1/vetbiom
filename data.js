@@ -51,6 +51,7 @@ const CONFIG = {
   email_vet:         'vet@vetbiom.ru',
   email_legal:       'biomalab@yandex.ru',         // юридический (из ЕГРЮЛ)
 
+  chat_server:       '5.35.125.79:8080',           // IP:port веб-чата (полный AI-чат)
   wechat_id:         'wxid_xvlqim4aq97f22',
   wechat_display:    'Project Manager',
   whatsapp_number:   '',                            // заполните, например: '79991234567'
@@ -347,6 +348,7 @@ const I18N = {
     "nav.development":  "Разработка",
     "nav.knowledge":    "База знаний",
     "nav.partners":     "Партнёрам",
+    "nav.chat":         "Чат",
 
     "meta.title.home":         "BIOMA LAB — ветеринарные нутрицевтики и синбиотики",
     "meta.desc.home":          "BIOMA LAB: R&D и производство стабильных формул на основе S. boulardii для ветеринарной практики. Эффективность подтверждена протоколами.",
@@ -393,6 +395,12 @@ const I18N = {
     "home.partnership.body":    "<p>Работаем напрямую с клиниками, зооаптеками и дистрибьюторами. Обеспечиваем прозрачные условия и техническую поддержку.</p><ul><li><strong>Документация:</strong> Декларации, протоколы, методические рекомендации — доступны до заключения договора.</li><li><strong>Оценка:</strong> Образцы для клинического тестирования и ознакомления с продуктом.</li><li><strong>Логистика:</strong> Отгрузка со склада в Москве. Работа через ЭДО. Стабильные поставки.</li><li><strong>Экспертиза:</strong> Консультации технологов и ветеринарных специалистов по применению и интеграции в схемы.</li></ul>",
     "home.partnership.btn1":    "Связаться с отделом развития",
     "home.partnership.btn2":    "Скачать корпоративную презентацию",
+
+    "home.chat.eyebrow":    "Консультация",
+    "home.chat.title":      "Есть вопросы о продукции BIOMA LAB?",
+    "home.chat.text":       "Задайте их прямо сейчас. На частые вопросы отвечаем мгновенно, на всё остальное — через ИИ (DeepSeek). Или напишите в Telegram.",
+    "home.chat.btnChat":      "Открыть веб-чат",
+    "home.chat.btnTelegram":  "Telegram @BiomaLab_bot",
 
     "home.legal.title":   "Юридическая информация",
     "home.legal.address": "115088, г. Москва, ул. 1-я Машиностроения, д. 7",
@@ -484,6 +492,7 @@ const I18N = {
     "nav.development":  "Development",
     "nav.knowledge":    "Knowledge Base",
     "nav.partners":     "Partners",
+    "nav.chat":         "Chat",
 
     "meta.title.home":         "BIOMA LAB — veterinary nutraceuticals and synbiotics",
     "meta.desc.home":          "BIOMA LAB: R&D and manufacturing of stable S. boulardii-based formulations for veterinary practice. Efficacy verified by protocols.",
@@ -530,6 +539,12 @@ const I18N = {
     "home.partnership.body":    "<p>We work directly with clinics, pet pharmacies, and distributors. Transparent terms and technical support provided.</p><ul><li><strong>Documentation:</strong> Declarations, protocols, guidelines — available before contract signing.</li><li><strong>Evaluation:</strong> Samples for clinical testing and product familiarization.</li><li><strong>Logistics:</strong> Shipping from Moscow warehouse. EDI workflow. Reliable supply.</li><li><strong>Expertise:</strong> Consultations with technologists and veterinary specialists on application and protocol integration.</li></ul>",
     "home.partnership.btn1":    "Contact Business Development",
     "home.partnership.btn2":    "Download Corporate Presentation",
+
+    "home.chat.eyebrow":    "Consultation",
+    "home.chat.title":      "Questions about BIOMA LAB products?",
+    "home.chat.text":       "Ask them right now. FAQ answers are instant, everything else is answered by AI (DeepSeek). Or write to us on Telegram.",
+    "home.chat.btnChat":      "Open Web Chat",
+    "home.chat.btnTelegram":  "Telegram @BiomaLab_bot",
 
     "home.legal.title":   "Legal Information",
     "home.legal.address": "115088, Moscow, 1-ya Mashinostroyeniya St., 7",
@@ -621,6 +636,7 @@ const I18N = {
     "nav.development":  "产品研发",
     "nav.knowledge":    "知识库",
     "nav.partners":     "合作伙伴",
+    "nav.chat":         "聊天",
 
     "meta.title.home":         "BIOMA LAB — 兽用营养保健品与合生元",
     "meta.desc.home":          "BIOMA LAB：基于 S. boulardii 的稳定兽用配方研发与生产。功效经实验方案验证。",
@@ -667,6 +683,12 @@ const I18N = {
     "home.partnership.body":    "<p>我们直接与诊所、宠物药房和经销商合作。提供透明的合作条件和技术支持。</p><ul><li><strong>文件资料：</strong> 申报文件、方案、指南——签约前即可获取。</li><li><strong>样品评估：</strong> 提供临床测试和产品试用样品。</li><li><strong>物流：</strong> 莫斯科仓库发货。支持电子文档流转。稳定供应。</li><li><strong>专业支持：</strong> 工艺师和兽医专家提供应用及方案整合咨询。</li></ul>",
     "home.partnership.btn1":    "联系业务发展部",
     "home.partnership.btn2":    "下载企业介绍",
+
+    "home.chat.eyebrow":    "咨询",
+    "home.chat.title":      "对 BIOMA LAB 产品有疑问？",
+    "home.chat.text":       "现在就提问。常见问题即时回答，其他问题由 AI（DeepSeek）解答。或通过 Telegram 联系我们。",
+    "home.chat.btnChat":      "打开网页聊天",
+    "home.chat.btnTelegram":  "Telegram @BiomaLab_bot",
 
     "home.legal.title":   "法律信息",
     "home.legal.address": "115088, 莫斯科市, 第一机械制造街 7 号",

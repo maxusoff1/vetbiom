@@ -129,6 +129,7 @@ function renderHeader() {
 
         <a href="knowledge.html"    class="${current==='knowledge'?'is-active':''}"   data-i18n="nav.knowledge">Knowledge</a>
         <a href="partners.html"     class="${current==='partners'?'is-active':''}"    data-i18n="nav.partners">Partners</a>
+        <a href="https://${CONFIG.chat_server || 'chat.vetbiom.ru'}/chat/"  class="nav-chat" target="_blank" rel="noopener"><span data-i18n="nav.chat">Чат</span></a>
       </nav>
       <div class="header-controls">
         <div class="lang-switcher" role="group" aria-label="Language">
