@@ -110,90 +110,6 @@ const REPORTS = [
   }
 ];
 
-
-/* === 3. STAGES: этапы разработки продукта === */
-const STAGES = [
-  {
-    n: 1,
-    title: {
-      ru: 'Аналитика рынка и выбор штамма',
-      en: 'Market analysis and strain selection',
-      zh: '市场分析和菌株选择'
-    },
-    body: {
-      ru: 'Анализ научной литературы и доступных коммерческих штаммов. Выбор Saccharomyces boulardii обусловлен: устойчивостью к антибиотикам (дрожжевая природа), способностью проходить транзитом через ЖКТ, доказанной эффективностью при диарее различной этиологии. Опорный штамм для сопоставления — CNCM I-745.',
-      en: 'Review of scientific literature and available commercial strains. Saccharomyces boulardii was selected based on: antibiotic resistance (yeast nature), ability to transit through the GI tract, proven efficacy in diarrhea of various etiologies. Reference strain for comparison — CNCM I-745.',
-      zh: '审查科学文献和可用的商业菌株。选择 Saccharomyces boulardii 基于:对抗生素的抗性(酵母菌性质)、能够通过胃肠道的能力、对各种病因引起的腹泻的证实疗效。参考菌株为 CNCM I-745。'
-    }
-  },
-  {
-    n: 2,
-    title: {
-      ru: 'Оптимизация технологии: контроль активности воды',
-      en: 'Process optimization: water activity control',
-      zh: '工艺优化:水分活度控制'
-    },
-    body: {
-      ru: 'На этапе подбора технологии смешивания выявлен ключевой фактор сохранности — активность воды (aw) в готовой смеси. Решение: раздельное кондиционирование компонентов перед фасовкой и поддержание aw в диапазоне 0,15–0,20.',
-      en: 'During the mixing technology development, water activity (aw) in the final blend was identified as the key viability factor. Solution: separate conditioning of components before packaging and maintaining aw within 0.15–0.20.',
-      zh: '在混合工艺开发过程中,水分活度 (aw) 被确定为关键的活力因素。解决方案:在包装前对组分进行单独调理,并将 aw 保持在 0.15–0.20 范围内。'
-    }
-  },
-  {
-    n: 3,
-    title: {
-      ru: 'Барьерная упаковка для саше 1 г',
-      en: 'Barrier packaging for 1 g sachets',
-      zh: '1 克小袋阻隔包装'
-    },
-    body: {
-      ru: 'Сравнительное тестирование 4 типов упаковочных материалов. По результатам выбрана 4-слойная фольга с EVOH-барьером — оптимальное соотношение барьерных свойств (кислород, влага, свет) и совместимости с автоматами стик-пак-формата.',
-      en: 'Comparative testing of 4 packaging material types. A 4-layer foil with EVOH barrier was selected — optimal balance of barrier properties (oxygen, moisture, light) and compatibility with stick-pack format automation.',
-      zh: '4 种包装材料的比较测试。选择了带 EVOH 阻隔的 4 层铝箔——阻隔性能(氧气、水分、光线)与条状包装格式自动化设备兼容性的最佳平衡。'
-    }
-  },
-  {
-    n: 4,
-    title: {
-      ru: 'Подбор вспомогательных компонентов',
-      en: 'Excipient selection',
-      zh: '辅料选择'
-    },
-    body: {
-      ru: 'Тестирование совместимости S. boulardii с пребиотиком FOS и вспомогательными агентами. Введён трикальцийфосфат (0,5%) как антислёживатель для FOS — улучшение сыпучести без влияния на жизнеспособность штамма.',
-      en: 'Testing S. boulardii compatibility with FOS prebiotic and excipients. Tricalcium phosphate (0.5%) added as an anti-caking agent for FOS — improved flowability without impact on strain viability.',
-      zh: '测试 S. boulardii 与 FOS 益生元和辅料的兼容性。添加磷酸三钙 (0.5%) 作为 FOS 的抗结块剂——改善流动性,不影响菌株活力。'
-    }
-  },
-  {
-    n: 5,
-    title: {
-      ru: 'Спецификация на сырьё для поставщиков',
-      en: 'Raw material specification for suppliers',
-      zh: '供应商原料规格'
-    },
-    body: {
-      ru: 'Сформирован открытый технический запрос на субстанцию S. boulardii: штамм (приоритет CNCM I-745 или валидированный аналог), активность ≥ 10¹⁰ КОЕ/г к моменту поставки, остаточная влажность ≤ 5%, отсутствие лактозы, сертификаты ISO 22000 / GMP, CoA на партию, доступность образцов для тестирования.',
-      en: 'Public technical request for S. boulardii substance formed: strain (priority CNCM I-745 or validated equivalent), activity ≥ 10¹⁰ CFU/g at delivery, residual moisture ≤ 5%, lactose-free, ISO 22000 / GMP certificates, CoA per batch, sample availability for testing.',
-      zh: '已形成对 S. boulardii 原料的公开技术要求:菌株(优先 CNCM I-745 或经验证的等效菌株)、交付时活力 ≥ 10¹⁰ CFU/g、残留水分 ≤ 5%、无乳糖、ISO 22000 / GMP 证书、每批次 CoA、可提供测试样品。'
-    }
-  },
-  {
-    n: 6,
-    title: {
-      ru: 'Программа стабильности прототипа',
-      en: 'Prototype stability programme',
-      zh: '原型稳定性项目'
-    },
-    body: {
-      ru: 'Запущена 24-месячная программа стабильности первого прототипа при условиях хранения +25 °C / 60% RH (ICH Zone II). Контрольные точки: 0, 1, 3, 6, 12, 18, 24 мес. Параметры: КОЕ, влажность, aw, органолептика, целостность упаковки. Месяц 1 пройден без значимых отклонений.',
-      en: '24-month stability programme of the first prototype launched under +25°C / 60% RH storage (ICH Zone II). Check points: 0, 1, 3, 6, 12, 18, 24 months. Parameters: CFU, moisture, aw, organoleptic, package integrity. Month 1 passed without significant deviations.',
-      zh: '在 +25°C / 60% 相对湿度储存条件下(ICH 第二区)启动了首个原型 24 个月稳定性项目。检查点:0、1、3、6、12、18、24 个月。参数:CFU、水分、aw、感官特性、包装完整性。第 1 个月通过,无重大偏差。'
-    }
-  }
-];
-
-
 /* === 4. ARTICLES_INDEX: индекс статей базы знаний ===
    Каждой статье соответствует файл в папке articles/[slug].md
    Чтобы добавить новую статью:
@@ -427,7 +343,6 @@ const I18N = {
 
     "nav.home":         "Главная",
     "nav.about":        "О компании",
-    "nav.development":  "Разработка",
     "nav.knowledge":    "Ветеринарам",
     "nav.partners":     "Партнёрам",
 
@@ -476,13 +391,10 @@ const I18N = {
     "about.b3.body":          "<p>Мы работаем в профессиональном сегменте, где доверие строится на фактах.</p><ul><li><strong>Верифицируемые данные.</strong> Готовы предоставить результаты тестов на выживаемость штаммов по запросу.</li><li><strong>Честная коммуникация.</strong> Открыто обсуждаем технические нюансы и ограничения продукта.</li><li><strong>Развитие линейки.</strong> Текущая формула — база. На основе обратной связи от специалистов мы масштабируем ассортимент, включая разработку препаратов с бактериофагами.</li></ul>",
     "about.b4.title":         "Сотрудничество",
     "about.b4.body":          "<p>BIOMA LAB открыт для диалога с ветеринарными врачами, технологами и дистрибьюторами кормовых добавок. Мы ценим экспертизу коллег и строим долгосрочные партнерские отношения.</p><p>Свяжитесь с нами, чтобы обсудить технические детали продукта или возможности сотрудничества.</p>",
-    "about.legal.title":      "Реквизиты компании",
-    "about.leadership.title": "Руководство",
+
 
     /* Разработка */
-    "dev.hero.eyebrow":       "Разработка продукта",
-    "dev.hero.title":         "От выбора штамма до программы стабильности",
-    "dev.hero.subtitle":      "Шесть этапов работы над первым прототипом ветеринарного синбиотика. Каждый этап задокументирован, каждое решение обосновано данными.",
+
 
     /* Знания */
     "kb.hero.eyebrow":        "База знаний",
@@ -551,7 +463,6 @@ const I18N = {
 
     "nav.home":         "Home",
     "nav.about":        "About",
-    "nav.development":  "Development",
     "nav.knowledge":    "Knowledge Base",
     "nav.partners":     "Partners",
 
@@ -600,13 +511,10 @@ const I18N = {
     "about.b3.body":          "<p>Operating in the professional segment means trust is built on facts.</p><ul><li><strong>Verifiable Data:</strong> Strain survival test results available upon request.</li><li><strong>Honest Communication:</strong> Open discussion of technical nuances and product limitations.</li><li><strong>Pipeline Development:</strong> Current formula is the foundation. Based on specialist feedback, we are expanding the line, including bacteriophage-based products.</li></ul>",
     "about.b4.title":         "Partnership",
     "about.b4.body":          "<p>BIOMA LAB welcomes dialogue with veterinarians, technologists, and feed supplement distributors. We value peer expertise and build long-term partnerships.</p><p>Contact us to discuss technical specifications or collaboration opportunities.</p>",
-    "about.legal.title":      "Company Details",
-    "about.leadership.title": "Leadership",
+
 
     /* Dev */
-    "dev.hero.eyebrow":       "Product development",
-    "dev.hero.title":         "From strain selection to stability programme",
-    "dev.hero.subtitle":      "Six stages of work on the first veterinary synbiotic prototype. Every stage is documented, every decision is data-driven.",
+
 
     /* KB */
     "kb.hero.eyebrow":        "Knowledge base",
@@ -675,7 +583,6 @@ const I18N = {
 
     "nav.home":         "首页",
     "nav.about":        "关于公司",
-    "nav.development":  "产品研发",
     "nav.knowledge":    "知识库",
     "nav.partners":     "合作伙伴",
 
@@ -724,13 +631,10 @@ const I18N = {
     "about.b3.body":          "<p>深耕专业领域，信任源于事实。</p><ul><li><strong>数据可验证：</strong> 可根据要求提供菌株存活测试报告。</li><li><strong>坦诚沟通：</strong> 公开探讨技术细节与产品局限性。</li><li><strong>持续迭代：</strong> 现有配方为基础，结合专家反馈拓展产品线，包括噬菌体制剂研发。</li></ul>",
     "about.b4.title":         "合作邀约",
     "about.b4.body":          "<p>BIOMA LAB 诚邀兽医、技术人员及饲料添加剂经销商交流。我们尊重行业智慧，致力于建立长期伙伴关系。</p><p>欢迎联系我们，洽谈产品技术细节或合作事宜。</p>",
-    "about.legal.title":      "公司信息",
-    "about.leadership.title": "领导团队",
+
 
     /* Dev */
-    "dev.hero.eyebrow":       "产品研发",
-    "dev.hero.title":         "从菌株选择到稳定性项目",
-    "dev.hero.subtitle":      "首个兽用合生元原型工作的六个阶段。每个阶段都有文档记录,每个决策都基于数据。",
+
 
     /* KB */
     "kb.hero.eyebrow":        "知识库",

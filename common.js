@@ -127,7 +127,7 @@ function renderHeader() {
       <nav class="main-nav" aria-label="Main">
         <a href="index.html"        class="${current==='home'?'is-active':''}"        data-i18n="nav.home">Home</a>
         <a href="about.html"        class="${current==='about'?'is-active':''}"       data-i18n="nav.about">About</a>
-        <a href="development.html"  class="${current==='development'?'is-active':''}" data-i18n="nav.development">Development</a>
+
         <a href="knowledge.html"    class="${current==='knowledge'?'is-active':''}"   data-i18n="nav.knowledge">Knowledge</a>
         <a href="partners.html"     class="${current==='partners'?'is-active':''}"    data-i18n="nav.partners">Partners</a>
       </nav>
@@ -168,7 +168,7 @@ function renderFooter() {
         <h4 data-i18n="footer.linksBlock">Sections</h4>
         <a href="index.html" data-i18n="nav.home">Home</a>
         <a href="about.html" data-i18n="nav.about">About</a>
-        <a href="development.html" data-i18n="nav.development">Development</a>
+
         <a href="knowledge.html" data-i18n="nav.knowledge">Knowledge</a>
         <a href="partners.html" data-i18n="nav.partners">Partners</a>
       </div>
