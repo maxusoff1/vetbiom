@@ -51,7 +51,7 @@ const CONFIG = {
   email_vet:         'vet@vetbiom.ru',
   email_legal:       'biomalab@yandex.ru',         // юридический (из ЕГРЮЛ)
 
-  chat_server:       '5.35.125.79:8080',           // IP:port веб-чата (полный AI-чат)
+  chat_server:       '45.67.129.187:8080',           // IP:port веб-чата
   wechat_id:         'wxid_xvlqim4aq97f22',
   wechat_display:    'Project Manager',
   whatsapp_number:   '',                            // заполните, например: '79991234567'
@@ -398,7 +398,7 @@ const I18N = {
 
     "home.chat.eyebrow":    "Консультация",
     "home.chat.title":      "Есть вопросы о продукции BIOMA LAB?",
-    "home.chat.text":       "Задайте их прямо сейчас. На частые вопросы отвечаем мгновенно, на всё остальное — через ИИ (DeepSeek). Или напишите в Telegram.",
+    "home.chat.text":       "Задайте их прямо сейчас. На частые вопросы отвечаем мгновенно. Или напишите в Telegram.",
     "home.chat.btnChat":      "Открыть веб-чат",
     "home.chat.btnTelegram":  "Telegram @BiomaLab_bot",
 
@@ -542,7 +542,7 @@ const I18N = {
 
     "home.chat.eyebrow":    "Consultation",
     "home.chat.title":      "Questions about BIOMA LAB products?",
-    "home.chat.text":       "Ask them right now. FAQ answers are instant, everything else is answered by AI (DeepSeek). Or write to us on Telegram.",
+    "home.chat.text":       "Ask them right now. FAQ answers are instant, or write to us on Telegram.",
     "home.chat.btnChat":      "Open Web Chat",
     "home.chat.btnTelegram":  "Telegram @BiomaLab_bot",
 
@@ -686,7 +686,7 @@ const I18N = {
 
     "home.chat.eyebrow":    "咨询",
     "home.chat.title":      "对 BIOMA LAB 产品有疑问？",
-    "home.chat.text":       "现在就提问。常见问题即时回答，其他问题由 AI（DeepSeek）解答。或通过 Telegram 联系我们。",
+    "home.chat.text":       "现在就提问。常见问题即时回答。或通过 Telegram 联系我们。",
     "home.chat.btnChat":      "打开网页聊天",
     "home.chat.btnTelegram":  "Telegram @BiomaLab_bot",
 
