@@ -389,7 +389,7 @@ const I18N = {
 
     "home.partnership.eyebrow": "Сотрудничество",
     "home.partnership.title":   "Для ветеринарного сообщества и партнёров",
-    "home.partnership.body":    "<p>Работаем напрямую с клиниками, зооаптеками и дистрибьюторами. Обеспечиваем прозрачные условия и техническую поддержку.</p><ul><li><strong>📄 Документация:</strong> Декларации, протоколы, методические рекомендации — доступны до заключения договора.</li><li><strong>🧪 Оценка:</strong> Образцы для клинического тестирования и ознакомления с продуктом.</li><li><strong>⚡ Логистика:</strong> Отгрузка со склада в Москве. Работа через ЭДО. Стабильные поставки.</li><li><strong>🎓 Экспертиза:</strong> Консультации технологов и ветеринарных специалистов по применению и интеграции в схемы.</li></ul>",
+    "home.partnership.body":    "<p>Работаем напрямую с клиниками, зооаптеками и дистрибьюторами. Обеспечиваем прозрачные условия и техническую поддержку.</p><ul><li><strong>Документация:</strong> Декларации, протоколы, методические рекомендации — доступны до заключения договора.</li><li><strong>Оценка:</strong> Образцы для клинического тестирования и ознакомления с продуктом.</li><li><strong>Логистика:</strong> Отгрузка со склада в Москве. Работа через ЭДО. Стабильные поставки.</li><li><strong>Экспертиза:</strong> Консультации технологов и ветеринарных специалистов по применению и интеграции в схемы.</li></ul>",
     "home.partnership.btn1":    "Связаться с отделом развития",
     "home.partnership.btn2":    "Скачать корпоративную презентацию",
 
@@ -524,7 +524,7 @@ const I18N = {
 
     "home.partnership.eyebrow": "Partnership",
     "home.partnership.title":   "For the Veterinary Community and Partners",
-    "home.partnership.body":    "<p>We work directly with clinics, pet pharmacies, and distributors. Transparent terms and technical support provided.</p><ul><li><strong>📄 Documentation:</strong> Declarations, protocols, guidelines — available before contract signing.</li><li><strong>🧪 Evaluation:</strong> Samples for clinical testing and product familiarization.</li><li><strong>⚡ Logistics:</strong> Shipping from Moscow warehouse. EDI workflow. Reliable supply.</li><li><strong>🎓 Expertise:</strong> Consultations with technologists and veterinary specialists on application and protocol integration.</li></ul>",
+    "home.partnership.body":    "<p>We work directly with clinics, pet pharmacies, and distributors. Transparent terms and technical support provided.</p><ul><li><strong>Documentation:</strong> Declarations, protocols, guidelines — available before contract signing.</li><li><strong>Evaluation:</strong> Samples for clinical testing and product familiarization.</li><li><strong>Logistics:</strong> Shipping from Moscow warehouse. EDI workflow. Reliable supply.</li><li><strong>Expertise:</strong> Consultations with technologists and veterinary specialists on application and protocol integration.</li></ul>",
     "home.partnership.btn1":    "Contact Business Development",
     "home.partnership.btn2":    "Download Corporate Presentation",
 
@@ -659,7 +659,7 @@ const I18N = {
 
     "home.partnership.eyebrow": "合作",
     "home.partnership.title":   "面向兽医社群与合作伙伴",
-    "home.partnership.body":    "<p>我们直接与诊所、宠物药房和经销商合作。提供透明的合作条件和技术支持。</p><ul><li><strong>📄 文件资料：</strong> 申报文件、方案、指南——签约前即可获取。</li><li><strong>🧪 样品评估：</strong> 提供临床测试和产品试用样品。</li><li><strong>⚡ 物流：</strong> 莫斯科仓库发货。支持电子文档流转。稳定供应。</li><li><strong>🎓 专业支持：</strong> 工艺师和兽医专家提供应用及方案整合咨询。</li></ul>",
+    "home.partnership.body":    "<p>我们直接与诊所、宠物药房和经销商合作。提供透明的合作条件和技术支持。</p><ul><li><strong>文件资料：</strong> 申报文件、方案、指南——签约前即可获取。</li><li><strong>样品评估：</strong> 提供临床测试和产品试用样品。</li><li><strong>物流：</strong> 莫斯科仓库发货。支持电子文档流转。稳定供应。</li><li><strong>专业支持：</strong> 工艺师和兽医专家提供应用及方案整合咨询。</li></ul>",
     "home.partnership.btn1":    "联系业务发展部",
     "home.partnership.btn2":    "下载企业介绍",
 
