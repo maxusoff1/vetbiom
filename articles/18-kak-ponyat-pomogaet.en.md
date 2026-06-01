@@ -1,6 +1,6 @@
 # How to Tell If S. boulardii Is Working: Signs of Probiotic Efficacy in Cats and Dogs
 
-**Saccharomyces boulardii CNCM I-745** is the only clinically proven yeast probiotic with an extensive research base for the treatment and prevention of diarrhea in humans and animals. Below are scientifically grounded criteria for evaluating how to tell if the probiotic is working in your pets.[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/chto-takoe-saharomicety-bulardi-cncm-i-745/mekhanizm-dejstviya/)]
+**Saccharomyces boulardii** is the most extensively studied yeast probiotic with an extensive research base for the treatment and prevention of diarrhea in humans and animals. Below are scientifically grounded criteria for evaluating how to tell if the probiotic is working in your pets.[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/chto-takoe-saharomicety-bulardi-cncm-i-745/mekhanizm-dejstviya/)]
 
 ---
 

@@ -31,7 +31,7 @@
 
 健康的肠道微生物群是屏障完整性、免疫和消化的关键因素。平衡破坏（菌群失调）是犬腹泻的常见伴随因素。
 
-**S. boulardii** 是一种非致病性酵母益生菌（CNCM I-745），其特点：
+**S. boulardii** 是一种非致病性酵母益生菌（研究最广泛的菌株为 CNCM I-745），其特点：
 
 - 不会长期定殖于肠道，作用短暂；
 - 对抗生素有耐药性，因此可平行用于抗菌治疗；
@@ -40,7 +40,7 @@
 - 加强紧密连接（降低肠道通透性）；
 - 调节免疫应答并减轻炎症。[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/chto-takoe-saharomicety-bulardi-cncm-i-745/nauchnye-dannye/)]
 
-在系统综述和临床研究中，S. boulardii CNCM I-745 在以下方面显示有证可循的有效性：
+在系统综述和临床研究中，S. boulardii 在以下方面显示有证可循的有效性：
 
 - 治疗和预防急性腹泻；
 - 预防抗生素相关性腹泻；

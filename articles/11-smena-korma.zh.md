@@ -10,7 +10,7 @@
 
 ## 如何支持肠道：饲料更换时使用益生菌
 
-**饲料更换益生菌** 基于 _Saccharomyces boulardii_ CNCM I-745，被正式推荐用于预防和治疗人类和动物的腹泻，证据等级为 A 级。关键效果：[[sciencejournals](https://sciencejournals.ru/view-article/?j=prikbio&y=2023&v=59&n=2&a=PrikBio2301008Ryabtseva)]
+**饲料更换益生菌** 基于 _Saccharomyces boulardii_，被正式推荐用于预防和治疗人类和动物的腹泻，证据等级为 A 级。关键效果：[[sciencejournals](https://sciencejournals.ru/view-article/?j=prikbio&y=2023&v=59&n=2&a=PrikBio2301008Ryabtseva)]
 
 | 作用机制 | 科学依据 |
 |---|---|

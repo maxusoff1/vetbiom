@@ -21,7 +21,7 @@
 | **拮抗作用** | 减少致病菌（艰难梭菌、白色念珠菌、大肠杆菌）的污染 | RMJ 2024 [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)] |
 | **合成 SCFA** | 刺激滋养黏膜的短链脂肪酸的形成 | RMJ 2024 [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)]，农业科学 2025 [[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)] |
 
-**重要事实**：S. boulardii CNCM I-745 可防止肠壁上生物膜的形成，阻碍致病菌附着和扩散。这在腹泻时尤为关键，因为病原体此时会积极定殖于黏膜。[[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]
+**重要事实**：S. boulardii 可防止肠壁上生物膜的形成，阻碍致病菌附着和扩散。这在腹泻时尤为关键，因为病原体此时会积极定殖于黏膜。[[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]
 
 ---
 
@@ -29,7 +29,7 @@
 
 腹泻时，有益微生物群大量流失，上皮完整性受损，炎症加剧。**肠道恢复** 成为恢复正常状态的优先任务。
 
-研究表明，给予 S. boulardii CNCM I-745 后，正常微生物群的组成和多样性迅速恢复，而不利微生物群的生长减少。这通过菌群失调时粪便组成的研究得到证实。[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/nauchnye-dokazatelstva/dokazannyj-mekhanizm-dejstviya/)]
+研究表明，给予 S. boulardii 后，正常微生物群的组成和多样性迅速恢复，而不利微生物群的生长减少。这通过菌群失调时粪便组成的研究得到证实。[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/nauchnye-dokazatelstva/dokazannyj-mekhanizm-dejstviya/)]
 
 ## 对饲主和兽医的实际意义
 

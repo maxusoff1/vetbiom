@@ -10,7 +10,7 @@ The mechanism involves new substrates (proteins, fats, carbohydrates) requiring 
 
 ## How to Support the Gut: Probiotic During Diet Change
 
-**Probiotic during diet change** based on _Saccharomyces boulardii_ CNCM I-745 is officially recommended for the prevention and treatment of diarrhea in humans and animals with evidence level A. Key effects:[[sciencejournals](https://sciencejournals.ru/view-article/?j=prikbio&y=2023&v=59&n=2&a=PrikBio2301008Ryabtseva)]
+**Probiotic during diet change** based on _Saccharomyces boulardii_ is officially recommended for the prevention and treatment of diarrhea in humans and animals with evidence level A. Key effects:[[sciencejournals](https://sciencejournals.ru/view-article/?j=prikbio&y=2023&v=59&n=2&a=PrikBio2301008Ryabtseva)]
 
 |Mechanism of action|Scientific rationale|
 |---|---|

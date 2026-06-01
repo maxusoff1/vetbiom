@@ -1,6 +1,6 @@
 # 如何判断 S. boulardii 是否有效：猫狗益生菌有效性的标志
 
-**Saccharomyces boulardii CNCM I-745** 是唯一经过临床证实的酵母益生菌，拥有广泛的研究基础，用于治疗和预防人类和动物的腹泻。以下是基于科学的评估标准，用于判断益生菌是否对您的宠物有效。[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/chto-takoe-saharomicety-bulardi-cncm-i-745/mekhanizm-dejstviya/)]
+**Saccharomyces boulardii** 是研究最广泛的酵母益生菌，拥有广泛的研究基础，用于治疗和预防人类和动物的腹泻。以下是基于科学的评估标准，用于判断益生菌是否对您的宠物有效。[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/chto-takoe-saharomicety-bulardi-cncm-i-745/mekhanizm-dejstviya/)]
 
 ---
 

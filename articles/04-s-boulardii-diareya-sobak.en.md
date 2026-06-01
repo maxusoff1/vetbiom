@@ -40,7 +40,7 @@ In dogs with chronic enteritis, the use of S. boulardii as part of therapy is as
 
 A healthy intestinal microbiota is a key factor for barrier integrity, immunity, and digestion. Imbalance (dysbiosis) is a frequent companion of diarrhea in dogs.
 
-**S. boulardii** is a non-pathogenic yeast probiotic (CNCM I-745) that:
+**S. boulardii** is a non-pathogenic yeast probiotic (the most extensively studied strain being CNCM I-745) that:
 
 - does not permanently colonize the gut — acts transiently;
     
@@ -55,7 +55,7 @@ A healthy intestinal microbiota is a key factor for barrier integrity, immunity,
 - modulates immune response and reduces inflammation.[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/chto-takoe-saharomicety-bulardi-cncm-i-745/nauchnye-dannye/)]
     
 
-In systematic reviews and clinical studies, S. boulardii CNCM I-745 demonstrates proven efficacy in:
+In systematic reviews and clinical studies, S. boulardii demonstrates proven efficacy in:
 
 - treatment and prevention of acute diarrhea;
     

@@ -8,7 +8,7 @@
 
 随着年龄增长，**老年动物的肠道**发生显著变化：胃液酸度降低、胃肠道蠕动减慢、有益菌数量减少、免疫防御减弱。对于老年猫狗，**老年猫益生菌**和**老年犬益生菌**成为维持健康的关键要素。[[fullbuckethealth](https://www.fullbuckethealth.com/blogs/news/three-reasons-to-use-s-boulardii-for-dogs)]
 
-**S. boulardii 年龄** 无使用限制——酵母益生菌 Saccharomyces boulardii CNCM I-745 对任何年龄（包括老年）的动物安全有效。研究证实，**S. boulardii** 对免疫系统减弱的动物（老年猫狗的特征）尤其有益。[[farmplus.com](https://farmplus.com.ua/ru/shho-take-saharomiczety-bulardi-saccharomyces-boulardii-i-chomu-yih-vykorystovuyut-dlya-pidtrymky-mikroflory-kyshechnyka/)]
+**S. boulardii 年龄** 无使用限制——酵母益生菌 Saccharomyces boulardii 对任何年龄（包括老年）的动物安全有效。研究证实，**S. boulardii** 对免疫系统减弱的动物（老年猫狗的特征）尤其有益。[[farmplus.com](https://farmplus.com.ua/ru/shho-take-saharomiczety-bulardi-saccharomyces-boulardii-i-chomu-yih-vykorystovuyut-dlya-pidtrymky-mikroflory-kyshechnyka/)]
 
 **老年犬益生菌**和**老年猫益生菌**的作用机制包括：
 

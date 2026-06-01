@@ -8,7 +8,7 @@
 
 С возрастом **кишечник пожилого животного** претерпевает значительные изменения: снижается кислотность желудочного сока, замедляется моторика ЖКТ, уменьшается количество полезных бактерий и ослабевает иммунная защита. Для пожилых кошек и собак **пробиотик для пожилых кошек** и **пробиотик для пожилых собак** становится критически важным элементом поддержания здоровья.[[fullbuckethealth](https://www.fullbuckethealth.com/blogs/news/three-reasons-to-use-s-boulardii-for-dogs)]
 
-**S. boulardii возраст** не имеет ограничений — дрожжевой пробиотик Saccharomyces boulardii CNCM I-745 безопасен и эффективен для животных любого возраста, включая пожилых. Исследования подтверждают, что **S. boulardii** особенно полезен для животных с ослабленной иммунной системой, что характерно для возрастных кошек и собак.[[farmplus.com](https://farmplus.com.ua/ru/shho-take-saharomiczety-bulardi-saccharomyces-boulardii-i-chomu-yih-vykorystovuyut-dlya-pidtrymky-mikroflory-kyshechnyka/)]
+**S. boulardii возраст** не имеет ограничений — дрожжевой пробиотик Saccharomyces boulardii безопасен и эффективен для животных любого возраста, включая пожилых. Исследования подтверждают, что **S. boulardii** особенно полезен для животных с ослабленной иммунной системой, что характерно для возрастных кошек и собак.[[farmplus.com](https://farmplus.com.ua/ru/shho-take-saharomiczety-bulardi-saccharomyces-boulardii-i-chomu-yih-vykorystovuyut-dlya-pidtrymky-mikroflory-kyshechnyka/)]
 
 Механизм действия **пробиотика для пожилых собак** и **пробиотика для пожилых кошек** включает:
 

@@ -21,7 +21,7 @@ The **action of S. boulardii** on the intestinal barrier is confirmed by numerou
 |**Antagonism**|Reduces contamination by pathogenic bacteria (C. difficile, Candida albicans, E. coli) [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)]|RMJ 2024 [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)]|
 |**SCFA synthesis**|Stimulates short-chain fatty acid production, nourishing the mucosa [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)]|RMJ 2024 [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)], Agricultural Science 2025 [[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]|
 
-**Important fact**: S. boulardii CNCM I-745 prevents biofilm formation on the intestinal wall, hindering pathogenic bacteria from attaching and spreading. This is critically important during diarrhea, when pathogens actively colonize the mucosa.[[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]
+**Important fact**: S. boulardii prevents biofilm formation on the intestinal wall, hindering pathogenic bacteria from attaching and spreading. This is critically important during diarrhea, when pathogens actively colonize the mucosa.[[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]
 
 ---
 
@@ -29,7 +29,7 @@ The **action of S. boulardii** on the intestinal barrier is confirmed by numerou
 
 During diarrhea, there is massive loss of beneficial microbiota, disruption of epithelial integrity, and increased inflammation. **Gut recovery** becomes the priority for returning to normal condition.
 
-Research shows that after S. boulardii CNCM I-745 administration, normal microbiota composition and diversity are quickly restored, while the growth of unfavorable microbiota decreases. This is confirmed by fecal composition studies in dysbiosis.[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/nauchnye-dokazatelstva/dokazannyj-mekhanizm-dejstviya/)]
+Research shows that after S. boulardii administration, normal microbiota composition and diversity are quickly restored, while the growth of unfavorable microbiota decreases. This is confirmed by fecal composition studies in dysbiosis.[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/nauchnye-dokazatelstva/dokazannyj-mekhanizm-dejstviya/)]
 
 ## Practical Value for Owners and Veterinarians
 

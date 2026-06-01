@@ -8,7 +8,7 @@
 
 With age, the **gut of the senior animal** undergoes significant changes: gastric acid secretion decreases, GI motility slows, beneficial bacterial populations decline, and immune defenses weaken. For senior cats and dogs, a **probiotic for senior cats** and **probiotic for senior dogs** becomes critically important for maintaining health.[[fullbuckethealth](https://www.fullbuckethealth.com/blogs/news/three-reasons-to-use-s-boulardii-for-dogs)]
 
-**S. boulardii for aging animals** has no age restrictions — the yeast probiotic Saccharomyces boulardii CNCM I-745 is safe and effective for animals of any age, including seniors. Research confirms that **S. boulardii** is especially beneficial for animals with weakened immune systems, which is characteristic of aging cats and dogs.[[farmplus.com](https://farmplus.com.ua/ru/shho-take-saharomiczety-bulardi-saccharomyces-boulardii-i-chomu-yih-vykorystovuyut-dlya-pidtrymky-mikroflory-kyshechnyka/)]
+**S. boulardii for aging animals** has no age restrictions — the yeast probiotic Saccharomyces boulardii is safe and effective for animals of any age, including seniors. Research confirms that **S. boulardii** is especially beneficial for animals with weakened immune systems, which is characteristic of aging cats and dogs.[[farmplus.com](https://farmplus.com.ua/ru/shho-take-saharomiczety-bulardi-saccharomyces-boulardii-i-chomu-yih-vykorystovuyut-dlya-pidtrymky-mikroflory-kyshechnyka/)]
 
 The mechanisms of action of **probiotic for senior dogs** and **probiotic for senior cats** include:
 

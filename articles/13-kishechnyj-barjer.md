@@ -21,7 +21,7 @@
 |**Антагонизм**|Уменьшает контаминацию патогенными бактериями (C. difficile, Candida albicans, E. coli) [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)]|RMJ 2024 [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)]|
 |**Синтез КЦЖК**|Стимулирует образование короткоцепочечных жирных кислот, питающих слизистую [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)]|RMJ 2024 [[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414249/)], Аграрная наука 2025 [[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]|
 
-**Важный факт**: S. boulardii CNCM I-745 предотвращает образование биоплёнки на кишечной стенке, мешая патогенным бактериям прикрепляться и распространяться. Это критически важно при диарее, когда патогены активно колонизируют слизистую.[[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]
+**Важный факт**: S. boulardii предотвращает образование биоплёнки на кишечной стенке, мешая патогенным бактериям прикрепляться и распространяться. Это критически важно при диарее, когда патогены активно колонизируют слизистую.[[vicgroup](https://vicgroup.ru/upload/iblock/779/k4nbnzx9sk33uuacurwfd3ee37shgymb.pdf)]
 
 ---
 
@@ -29,7 +29,7 @@
 
 При диарее происходит массовая потеря полезной микробиоты, нарушение целостности эпителия и усиление воспаления. **Восстановление кишечника** становится приоритетом для возвращения к нормальному состоянию.
 
-Исследования показывают, что после введения S. boulardii CNCM I-745 нормальный состав и разнообразие микробиоты быстро восстанавливаются, в то время как рост неблагоприятной микробиоты уменьшается. Это подтверждается исследованиями состава кала при дисбиозе.[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/nauchnye-dokazatelstva/dokazannyj-mekhanizm-dejstviya/)]
+Исследования показывают, что после введения S. boulardii нормальный состав и разнообразие микробиоты быстро восстанавливаются, в то время как рост неблагоприятной микробиоты уменьшается. Это подтверждается исследованиями состава кала при дисбиозе.[[saccharomycesboulardii](https://www.saccharomycesboulardii.com/nauchnye-dokazatelstva/dokazannyj-mekhanizm-dejstviya/)]
 
 ## Практическое значение для владельцев и ветеринаров
 
