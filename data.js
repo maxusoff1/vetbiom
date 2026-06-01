@@ -343,7 +343,8 @@ const I18N = {
 
     "nav.home":         "Главная",
     "nav.about":        "О компании",
-    "nav.knowledge":    "Ветеринарам",
+    "nav.development":  "Разработка",
+    "nav.knowledge":    "База знаний",
     "nav.partners":     "Партнёрам",
 
     "meta.title.home":         "ВетБиом — ветеринарные синбиотики на основе S. boulardii",
@@ -452,6 +453,7 @@ const I18N = {
 
     "nav.home":         "Home",
     "nav.about":        "About",
+    "nav.development":  "Development",
     "nav.knowledge":    "Knowledge Base",
     "nav.partners":     "Partners",
 
@@ -561,6 +563,7 @@ const I18N = {
 
     "nav.home":         "首页",
     "nav.about":        "关于公司",
+    "nav.development":  "产品研发",
     "nav.knowledge":    "知识库",
     "nav.partners":     "合作伙伴",
 
