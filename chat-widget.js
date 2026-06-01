@@ -4,20 +4,21 @@
 (function () {
   'use strict';
 
+  // FAQ entries: {answer, kw[], minScore}
   const FAQ = [
-    { a: 'Здравствуйте! Чем могу помочь? Спросите о синбиотиках, здоровье животных или продукции BIOMA LAB.', kw: ['здравствуй', 'привет', 'добрый', 'день', 'утро', 'вечер', 'хай', 'hi'] },
-    { a: 'BIOMA LAB — R&D компания, разрабатывающая ветеринарные синбиотики (пробиотики + пребиотики).', kw: ['bioma', 'lab', 'компания', 'кто', 'чем', 'занимается', 'это', 'что', 'такое', 'расскажи', 'расскажите', 'о вас'] },
-    { a: 'Синбиотик — комбинация пробиотика (полезных бактерий) и пребиотика (питательной среды). BIOMA LAB использует S. boulardii + FOS.', kw: ['синбиотик', 'пробиотик', 'пребиотик', 'boulardii', 'fos'] },
-    { a: 'Разработки BIOMA LAB предназначены для сельскохозяйственных животных (КРС, свиньи, птица) и домашних питомцев (собаки, кошки).', kw: ['животные', 'собаки', 'кошки', 'крс', 'свиньи', 'птица', 'поросят', 'телят', 'цыплят', 'для кого', 'кому'] },
-    { a: 'BIOMA LAB работает B2B. Для коммерческого предложения и цен — напишите в Telegram @BiomaLab_bot.', kw: ['купить', 'цена', 'заказать', 'где', 'приобрести', 'стоимость', 'заказ', 'кцпить'] },
-    { a: 'Ключевое отличие — патентованный штамм S. boulardii и научно-обоснованная комбинация с FOS.', kw: ['конкурент', 'отличие', 'уникальный', 'патент', 'штамм', 'уникальность', 'почему'] },
-    { a: 'Telegram: @BiomaLab_bot · Сайт: vetbiom.ru', kw: ['контакт', 'связаться', 'написать', 'телефон', 'email', 'почта', 'адрес'] },
-    { a: 'FOS (фруктоолигосахариды) — натуральные пребиотики, питательная среда для полезных бактерий.', kw: ['fos', 'фруктоолигосахарид', 'пребиотик'] },
-    { a: 'Наши синбиотики на основе S. boulardii + FOS поддерживают здоровье кишечника. Какой вид животного? Для точной схемы — обратитесь к ветеринару.', kw: ['понос', 'диаре', 'срет', 'поносит', 'жидк', 'кака', 'жопа', 'жоп', 'расстройств', 'дрист'] },
-    { a: 'При запоре важно нормализовать моторику ЖКТ и микрофлору. Наши синбиотики могут помочь. Какой вид животного? Обратитесь к ветеринару для схемы.', kw: ['запор', 'не кака', 'не срет', 'тужится', 'тверд', 'сух', 'не ходит'] },
-    { a: 'Отказ от еды может быть признаком многих заболеваний. Какой вид животного? Какие ещё симптомы? Синбиотики BIOMA LAB поддерживают ЖКТ, но нужна диагностика.', kw: ['не ест', 'не куша', 'отказ', 'аппетит', 'плох', 'не жу', 'не бер', 'не хоч', 'голод'] },
-    { a: 'Дозировки зависят от вида, возраста и формы выпуска. Для коммерческого предложения напишите в Telegram @BiomaLab_bot, указав вид и поголовье.', kw: ['дозировк', 'сколько', 'давать', 'грамм', 'мл', 'норм', 'доза', 'принимать'] },
-    { a: 'У нас есть синбиотики для кошек, собак, сельскохозяйственных животных. Для коммерческого предложения — напишите в Telegram @BiomaLab_bot.', kw: ['продукция', 'ассортимент', 'линейк', 'каталог', 'есть', 'имеется', 'что у вас'] },
+    { a: 'Здравствуйте! Чем могу помочь? Спросите о синбиотиках, здоровье животных или продукции BIOMA LAB.', kw: ['здравствуй', 'привет', 'добрый', 'утро', 'вечер', 'хай'], min: 2 },
+    { a: 'BIOMA LAB — R&D компания, разрабатывающая ветеринарные синбиотики (пробиотики + пребиотики).', kw: ['bioma', 'lab', 'компания', 'занимается'], min: 3 },
+    { a: 'Синбиотик — комбинация пробиотика (полезных бактерий) и пребиотика (питательной среды). BIOMA LAB использует S. boulardii + FOS.', kw: ['синбиотик', 'пробиотик', 'пребиотик', 'boulardii', 'fos'], min: 2 },
+    { a: 'Разработки BIOMA LAB предназначены для сельскохозяйственных животных (КРС, свиньи, птица) и домашних питомцев (собаки, кошки).', kw: ['животные', 'собаки', 'кошки', 'крс', 'свиньи', 'птица', 'телята'], min: 2 },
+    { a: 'BIOMA LAB работает B2B. Для коммерческого предложения и цен — напишите в Telegram @BiomaLab_bot.', kw: ['купить', 'цена', 'заказать', 'приобрести', 'стоимость', 'заказ'], min: 2 },
+    { a: 'Ключевое отличие — патентованный штамм S. boulardii и научно-обоснованная комбинация с FOS.', kw: ['конкурент', 'отличие', 'уникальный', 'патент', 'штамм'], min: 2 },
+    { a: 'Telegram: @BiomaLab_bot | Сайт: vetbiom.ru', kw: ['контакт', 'связаться', 'написать', 'телефон', 'email', 'почта', 'адрес'], min: 2 },
+    { a: 'FOS (фруктоолигосахариды) — натуральные пребиотики, питательная среда для полезных бактерий.', kw: ['fos', 'фруктоолигосахарид', 'пребиотик'], min: 2 },
+    { a: 'Дозировки зависят от вида, возраста и формы выпуска. Для коммерческого предложения напишите в Telegram @BiomaLab_bot.', kw: ['дозировка', 'сколько', 'давать', 'грамм', 'доза', 'принимать'], min: 2 },
+    { a: 'У нас есть синбиотики для кошек, собак, сельскохозяйственных животных. Для коммерческого предложения — напишите в Telegram @BiomaLab_bot.', kw: ['продукция', 'ассортимент', 'линейка', 'каталог', 'имеется'], min: 2 },
+    { a: 'Наши синбиотики на основе S. boulardii + FOS поддерживают здоровье кишечника. Уточните вид животного, возраст и симптомы. Для схемы — обратитесь к ветеринару.', kw: ['понос', 'диарея', 'поносит', 'срет', 'жидкий', 'жопа', 'расстройство'], min: 4 },
+    { a: 'При запоре важны моторика ЖКТ и микрофлора. Наши синбиотики могут помочь. Какой вид животного? Для схемы — к ветеринару.', kw: ['запор', 'не какает', 'тужится', 'твердый', 'сухой', 'не ходит'], min: 4 },
+    { a: 'Отказ от еды — неспецифичный симптом. Какой вид животного? Какие ещё симптомы? Нужна диагностика.', kw: ['не ест', 'не кушает', 'отказ', 'аппетит', 'плохо', 'не берет'], min: 4 },
   ];
 
   const SERVER_HOST = '45.67.129.187:8080';
@@ -25,7 +26,7 @@
     ? 'http://' + SERVER_HOST + '/chat/'
     : '/chat/';
 
-  // ── Fuzzy match (levenshtein ≤ 2) ──
+  // ── Fuzzy match ──
   function levDist(a, b, maxD) {
     if (Math.abs(a.length - b.length) > maxD) return maxD + 1;
     const m = a.length, n = b.length;
@@ -42,8 +43,13 @@
     return dp[m];
   }
 
-  function matchWord(w, kw) {
-    if (kw.startsWith(w) || w.startsWith(kw)) return 2;
+  function wordScore(w, kw) {
+    if (w.length < 2 || kw.length < 2) return 0;
+    if (kw.startsWith(w) || w.startsWith(kw)) {
+      const shorter = Math.min(w.length, kw.length);
+      const longer = Math.max(w.length, kw.length);
+      return (shorter >= 3 && shorter >= longer * 0.4) ? 2 : 0;
+    }
     if (Math.abs(w.length - kw.length) <= 2 && Math.max(w.length, kw.length) >= 3) {
       return levDist(w, kw, 2) <= 2 ? 1 : 0;
     }
@@ -57,13 +63,13 @@
       let score = 0;
       for (const w of words) {
         for (const kw of entry.kw) {
-          const s = matchWord(w, kw);
+          const s = wordScore(w, kw);
           if (s > 0) { score += s; break; }
         }
       }
       if (score > bestScore) { bestScore = score; best = entry; }
     }
-    return bestScore >= 3 ? best.a : null;
+    return best && bestScore >= best.min ? best.a : null;
   }
 
   // ── CSS ──
@@ -82,7 +88,6 @@
   position: absolute; top: -4px; right: -4px;
   width: 20px; height: 20px; border-radius: 50%;
   background: #d97706; color: white; font-size: 11px;
-  display: flex; align-items: center; justify-content: center;
   font-weight: 700; animation: bioma-pulse 2s infinite;
 }
 @keyframes bioma-pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.15); } }
@@ -222,19 +227,16 @@
     inputEl.value = '';
     sendBtn.disabled = true;
     showTyping();
-
     setTimeout(() => {
       hideTyping();
       const faq = findFAQ(text);
       if (faq) {
         addMsg(faq, 'bot');
       } else {
-        addMsg(
-          'Я не нашёл точный ответ. <br><br>'
+        addMsg('Я не нашёл точный ответ.<br><br>'
           + '<a href="' + CHAT_LINK + '" target="_blank" rel="noopener" '
           + 'style="color:#335341;font-weight:600;text-decoration:underline;">'
-          + 'Открыть подробную консультацию →</a>',
-          'bot', 'fallback');
+          + 'Открыть подробную консультацию →</a>', 'bot', 'fallback');
       }
       sendBtn.disabled = false;
       inputEl.focus();
@@ -250,15 +252,8 @@
     if (badge) badge.remove();
   });
 
-  document.getElementById('bioma-widget-close').addEventListener('click', () => {
-    isOpen = false;
-    panel.classList.remove('open');
-    btn.style.display = 'flex';
-  });
-
+  document.getElementById('bioma-widget-close').addEventListener('click', () => { isOpen = false; panel.classList.remove('open'); btn.style.display = 'flex'; });
   inputEl.addEventListener('input', () => { sendBtn.disabled = !inputEl.value.trim(); });
-  inputEl.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); ask(inputEl.value); }
-  });
+  inputEl.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); ask(inputEl.value); } });
   sendBtn.addEventListener('click', () => ask(inputEl.value));
 })();
